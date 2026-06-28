@@ -1,0 +1,11 @@
+sector,parent
+光模块,AI硬件
+PCB,AI硬件
+GPU,AI芯片
+半导体设备,AI芯片
+存储,AI芯片
+AI服务器,AI基础设施
+液冷,AI基础设施
+电力设备,AI基础设施
+机器人,AI终端
+AI应用,AI软件
