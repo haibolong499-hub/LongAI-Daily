@@ -2,6 +2,9 @@ name: LongAI Daily Data
 
 on:
   workflow_dispatch:
+    push:
+    branches:
+      - main
 
 permissions:
   contents: write
