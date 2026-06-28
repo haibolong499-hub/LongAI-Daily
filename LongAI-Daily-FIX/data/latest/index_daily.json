@@ -1,0 +1,42 @@
+[
+  {
+    "trade_date": "20260629",
+    "ts_code": "000001.SH",
+    "name": "上证指数"
+  },
+  {
+    "trade_date": "20260629",
+    "ts_code": "000016.SH",
+    "name": "上证50"
+  },
+  {
+    "trade_date": "20260629",
+    "ts_code": "000300.SH",
+    "name": "沪深300"
+  },
+  {
+    "trade_date": "20260629",
+    "ts_code": "000905.SH",
+    "name": "中证500"
+  },
+  {
+    "trade_date": "20260629",
+    "ts_code": "000852.SH",
+    "name": "中证1000"
+  },
+  {
+    "trade_date": "20260629",
+    "ts_code": "000688.SH",
+    "name": "科创50"
+  },
+  {
+    "trade_date": "20260629",
+    "ts_code": "399001.SZ",
+    "name": "深证成指"
+  },
+  {
+    "trade_date": "20260629",
+    "ts_code": "399006.SZ",
+    "name": "创业板指"
+  }
+]
