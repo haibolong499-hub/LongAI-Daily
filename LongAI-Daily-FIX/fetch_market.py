@@ -29,8 +29,9 @@ def call_api(fn, retries=3, sleep_seconds=2, **kwargs):
         except Exception as e:
             last_err = e
             time.sleep(sleep_seconds * (i + 1))
-    print(f"WARN: API call failed: {fn.__name__} {kwargs} -> {last_err}")
-    return pd.DataFrame()
+fn_name = getattr(fn, "__name__", "api_call")
+print(f"WARN: API call failed: {fn_name} {kwargs} -> {last_err}")
+return pd.DataFrame()
 
 
 def get_trade_date():
