@@ -31,12 +31,7 @@ jobs:
           python LongAI-Daily-FIX/fetch_market.py
           python LongAI-Daily-FIX/fetch/fetch_company.py
 
-      - name: Fetch data
-        env:
-          TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
-        run: |
-          python LongAI-Daily-FIX/fetch_market.py
-          python LongAI-Daily-FIX/fetch/fetch_company.py
+      
 
       - name: Commit generated data
         run: |
