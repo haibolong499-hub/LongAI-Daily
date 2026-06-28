@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r LongAI-Daily-FIX/requirements.txt
 
-      - name: Fetch data
+      - name: Fetch Market Data
         env:
           TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
         run: |
@@ -33,10 +33,16 @@ jobs:
           python LongAI-Daily-FIX/fetch/fetch_company.py
           python LongAI-Daily-FIX/fetch/fetch_index.py
 
+      - name: Generate Report
+        run: |
+          python LongAI-Daily-FIX/report/generate_report.py
+
       - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add LongAI-Daily-FIX/data || true
-          git commit -m "Update daily report data" || echo "No changes to commit"
+
+          git add LongAI-Daily-FIX/data
+          git commit -m "Update LongAI Daily" || echo "No changes"
+
           git push
