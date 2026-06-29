@@ -36,6 +36,7 @@ jobs:
       - name: Generate report
         run: |
           python LongAI-Daily-FIX/report/generate_report.py
+          python LongAI-Daily-FIX/report/generate_image.py
 
       - name: Commit generated data
         run: |
