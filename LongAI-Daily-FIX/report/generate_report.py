@@ -20,6 +20,13 @@ def read_csv_safe(path: Path) -> pd.DataFrame:
     return pd.read_csv(path)
 
 
+def to_num(s):
+    try:
+        return pd.to_numeric(s, errors="coerce")
+    except Exception:
+        return s
+
+
 def fmt_num(x, digits=2):
     try:
         if pd.isna(x):
@@ -68,15 +75,42 @@ def table_md(df: pd.DataFrame, columns, limit=10):
         vals = []
         for label, c in real_cols:
             v = r.get(c)
-            if "涨跌" in label or "pct" in c.lower():
+            lc = c.lower()
+            if "涨跌" in label or "pct" in lc:
                 vals.append(fmt_pct(v))
-            elif label in ["PE", "PE(TTM)", "PB", "换手率", "市值(亿)", "成交额(亿)"]:
+            elif label in ["PE", "PE(TTM)", "PB", "换手率", "市值(亿)", "成交额(亿)", "收盘"]:
                 vals.append(fmt_num(v, 2))
             else:
                 vals.append(str(v) if pd.notna(v) else "—")
         rows.append("| " + " | ".join(vals) + " |")
 
     return "\n".join(rows) + "\n"
+
+
+def score_to_text(score):
+    if score >= 85:
+        return "极强"
+    if score >= 75:
+        return "强"
+    if score >= 65:
+        return "偏强"
+    if score >= 50:
+        return "中性"
+    if score >= 35:
+        return "偏弱"
+    return "弱"
+
+
+def score_to_stars(score):
+    if score >= 85:
+        return "★★★★★"
+    if score >= 70:
+        return "★★★★☆"
+    if score >= 55:
+        return "★★★☆☆"
+    if score >= 40:
+        return "★★☆☆☆"
+    return "★☆☆☆☆"
 
 
 company = read_csv_safe(LATEST_DIR / "company_daily.csv")
@@ -93,17 +127,22 @@ for df in [index, company]:
             trade_date = str(val.iloc[0])
             break
 
-# 指数表
-index_show = index.copy()
-if not index_show.empty:
-    if "pct_chg" in index_show.columns:
-        index_show = index_show.sort_values("pct_chg", ascending=False)
+# 数值列处理
+for df in [company, index]:
+    if not df.empty:
+        for col in df.columns:
+            if col not in ["ts_code", "name", "sector", "sub_sector", "level", "country", "watch", "trade_date", "generated_at"]:
+                df[col] = to_num(df[col])
 
-# AI核心公司表
+# 指数排序
+index_show = index.copy()
+if not index_show.empty and "pct_chg" in index_show.columns:
+    index_show = index_show.sort_values("pct_chg", ascending=False)
+
+# 公司排序
 company_show = company.copy()
-if not company_show.empty:
-    if "pct_chg" in company_show.columns:
-        company_show = company_show.sort_values("pct_chg", ascending=False)
+if not company_show.empty and "pct_chg" in company_show.columns:
+    company_show = company_show.sort_values("pct_chg", ascending=False)
 
 # 板块统计
 sector_summary = pd.DataFrame()
@@ -132,25 +171,79 @@ if not company.empty and "sector" in company.columns:
         if "平均涨跌幅" in sector_summary.columns:
             sector_summary = sector_summary.sort_values("平均涨跌幅", ascending=False)
 
-# 简单评分
-longai_score = 50
+# 真实 LongAI Score
+score_parts = {}
+
 if not company.empty and "pct_chg" in company.columns:
-    up_ratio = (company["pct_chg"] > 0).mean()
-    avg_pct = company["pct_chg"].mean()
-    longai_score = int(max(0, min(100, 50 + up_ratio * 30 + avg_pct * 3)))
-
-if longai_score >= 80:
-    sentiment = "强"
-elif longai_score >= 65:
-    sentiment = "偏强"
-elif longai_score >= 50:
-    sentiment = "中性"
-elif longai_score >= 35:
-    sentiment = "偏弱"
+    valid_pct = company["pct_chg"].dropna()
+    if len(valid_pct) > 0:
+        up_ratio = (valid_pct > 0).mean()
+        avg_pct = valid_pct.mean()
+        score_parts["公司上涨比例"] = min(30, max(0, up_ratio * 30))
+        score_parts["公司平均涨跌"] = min(25, max(0, 12.5 + avg_pct * 4))
+    else:
+        score_parts["公司上涨比例"] = 15
+        score_parts["公司平均涨跌"] = 12
 else:
-    sentiment = "弱"
+    score_parts["公司上涨比例"] = 15
+    score_parts["公司平均涨跌"] = 12
 
-md = f"""# LongAI Daily V2 Alpha
+if not index.empty and "pct_chg" in index.columns:
+    idx_pct = index["pct_chg"].dropna()
+    if len(idx_pct) > 0:
+        idx_avg = idx_pct.mean()
+        score_parts["指数环境"] = min(20, max(0, 10 + idx_avg * 4))
+    else:
+        score_parts["指数环境"] = 10
+else:
+    score_parts["指数环境"] = 10
+
+if not sector_summary.empty and "平均涨跌幅" in sector_summary.columns:
+    sec_pct = sector_summary["平均涨跌幅"].dropna()
+    if len(sec_pct) > 0:
+        best_sector = sec_pct.max()
+        score_parts["板块强度"] = min(15, max(0, 7.5 + best_sector * 3))
+    else:
+        score_parts["板块强度"] = 7
+else:
+    score_parts["板块强度"] = 7
+
+if not company.empty and "amount" in company.columns:
+    total_amount_yi = company["amount"].fillna(0).sum() / 100000
+    score_parts["成交活跃度"] = min(10, max(0, total_amount_yi / 50))
+else:
+    total_amount_yi = None
+    score_parts["成交活跃度"] = 5
+
+longai_score = int(round(sum(score_parts.values())))
+longai_score = max(0, min(100, longai_score))
+
+sentiment = score_to_text(longai_score)
+stars = score_to_stars(longai_score)
+
+# 结论生成
+top_sector = "暂无"
+top_sector_pct = None
+if not sector_summary.empty and "平均涨跌幅" in sector_summary.columns:
+    top_row = sector_summary.iloc[0]
+    top_sector = str(top_row.get("板块", "暂无"))
+    top_sector_pct = top_row.get("平均涨跌幅")
+
+top_company = "暂无"
+top_company_pct = None
+if not company_show.empty and "pct_chg" in company_show.columns:
+    top_row = company_show.iloc[0]
+    top_company = str(top_row.get("name", "暂无"))
+    top_company_pct = top_row.get("pct_chg")
+
+if longai_score >= 75:
+    conclusion = f"AI核心资产整体偏强，当前最强板块为 {top_sector}，领涨公司为 {top_company}。"
+elif longai_score >= 50:
+    conclusion = f"AI核心资产整体中性偏稳，当前结构性机会主要集中在 {top_sector}。"
+else:
+    conclusion = f"AI核心资产整体偏弱，短期建议重点观察成交额与龙头修复情况。"
+
+md = f"""# LongAI Daily V3
 
 生成时间：{generated_at}  
 交易日：{trade_date}
@@ -163,12 +256,31 @@ md = f"""# LongAI Daily V2 Alpha
 |---|---:|
 | LongAI Score | {longai_score} |
 | AI市场情绪 | {sentiment} |
+| 情绪星级 | {stars} |
+| 最强板块 | {top_sector} |
+| 领涨公司 | {top_company} |
 | 数据来源 | Tushare + GitHub Actions |
-| 当前版本 | V2 Alpha |
+| 当前版本 | V3 Real Score |
 
 ---
 
-## 2. 指数表现与估值
+## 2. 今日核心观点
+
+**{conclusion}**
+
+评分拆解：
+
+| 因子 | 分数 |
+|---|---:|
+| 公司上涨比例 | {fmt_num(score_parts.get("公司上涨比例"), 1)} / 30 |
+| 公司平均涨跌 | {fmt_num(score_parts.get("公司平均涨跌"), 1)} / 25 |
+| 指数环境 | {fmt_num(score_parts.get("指数环境"), 1)} / 20 |
+| 板块强度 | {fmt_num(score_parts.get("板块强度"), 1)} / 15 |
+| 成交活跃度 | {fmt_num(score_parts.get("成交活跃度"), 1)} / 10 |
+
+---
+
+## 3. 指数表现与估值
 
 {table_md(index_show, [
     ("指数", ["name"]),
@@ -181,7 +293,7 @@ md = f"""# LongAI Daily V2 Alpha
 
 ---
 
-## 3. AI产业链板块表现
+## 4. AI产业链板块表现
 
 {table_md(sector_summary, [
     ("板块", ["板块"]),
@@ -193,7 +305,7 @@ md = f"""# LongAI Daily V2 Alpha
 
 ---
 
-## 4. AI Core 公司涨幅榜
+## 5. AI Core 公司涨幅榜
 
 {table_md(company_show, [
     ("公司", ["name"]),
@@ -208,7 +320,7 @@ md = f"""# LongAI Daily V2 Alpha
 
 ---
 
-## 5. AI Core 公司跌幅榜
+## 6. AI Core 公司跌幅榜
 
 {table_md(company.sort_values("pct_chg", ascending=True) if not company.empty and "pct_chg" in company.columns else company, [
     ("公司", ["name"]),
@@ -223,19 +335,11 @@ md = f"""# LongAI Daily V2 Alpha
 
 ---
 
-## 6. 今日结论
+## 7. 下一步计划
 
-当前 LongAI Score 为 **{longai_score}**，AI市场情绪判断为 **{sentiment}**。
-
-本版本已经完成：
-- 自动抓取指数行情与估值
-- 自动抓取 AI Core 公司行情与估值
-- 自动生成 Markdown 日报
-
-下一步建议接入：
-- 财务数据：ROE、毛利率、营收同比、净利润同比
-- 资金数据：主力资金、龙虎榜、两融
-- 图片日报：自动生成 PNG
+- 接入财务数据：ROE、毛利率、营收同比、净利润同比
+- 接入资金数据：主力资金、龙虎榜、两融
+- 自动生成 PNG 图片日报
 """
 
 out_md = LATEST_DIR / "longai_daily.md"
@@ -253,8 +357,12 @@ summary = {
     "trade_date": trade_date,
     "longai_score": longai_score,
     "sentiment": sentiment,
+    "stars": stars,
+    "top_sector": top_sector,
+    "top_company": top_company,
     "company_rows": len(company),
     "index_rows": len(index),
+    "score_parts": score_parts,
 }
 
 with open(out_json, "w", encoding="utf-8") as f:
