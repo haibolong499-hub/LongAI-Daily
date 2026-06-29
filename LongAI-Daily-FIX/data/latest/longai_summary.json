@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-29 18:20:34",
-  "trade_date": "20260629",
-  "longai_score": 75,
-  "sentiment": "强",
-  "stars": "★★★★☆",
+  "generated_at": "2026-06-30 03:32:21",
+  "trade_date": "20260630",
+  "longai_score": 69,
+  "sentiment": "偏强",
+  "stars": "★★★☆☆",
   "top_sector": "半导体设备",
   "top_company": "华海清科",
   "company_rows": 41,
@@ -11,7 +11,7 @@
   "score_parts": {
     "公司上涨比例": 15.75,
     "公司平均涨跌": 17.88944,
-    "指数环境": 15.95495,
+    "指数环境": 10,
     "板块强度": 15,
     "成交活跃度": 10
   }
