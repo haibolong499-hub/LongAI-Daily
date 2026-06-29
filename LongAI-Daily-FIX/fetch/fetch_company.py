@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -15,21 +16,40 @@ pro = ts.pro_api()
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIR = ROOT / "config"
-DATA_DIR = ROOT / "data"
-LATEST_DIR = DATA_DIR / "latest"
-HISTORY_DIR = DATA_DIR / "history"
+LATEST_DIR = ROOT / "data" / "latest"
+HISTORY_DIR = ROOT / "data" / "history"
 
 LATEST_DIR.mkdir(parents=True, exist_ok=True)
 HISTORY_DIR.mkdir(parents=True, exist_ok=True)
 
-company_path = CONFIG_DIR / "company_master.csv"
-companies = pd.read_csv(company_path)
 
-today = datetime.utcnow() + timedelta(hours=8)
-trade_date = today.strftime("%Y%m%d")
+def call_api(fn, **kwargs):
+    for i in range(3):
+        try:
+            return fn(**kwargs)
+        except Exception as e:
+            print(f"WARN retry {i+1}: {e}")
+            time.sleep(2 * (i + 1))
+    return pd.DataFrame()
 
-daily = pro.daily(trade_date=trade_date)
-daily_basic = pro.daily_basic(
+
+def get_latest_trade_date():
+    today = datetime.utcnow() + timedelta(hours=8)
+    for i in range(10):
+        d = (today - timedelta(days=i)).strftime("%Y%m%d")
+        test = call_api(pro.daily, trade_date=d)
+        if not test.empty:
+            return d
+    return today.strftime("%Y%m%d")
+
+
+trade_date = get_latest_trade_date()
+
+companies = pd.read_csv(CONFIG_DIR / "company_master.csv")
+
+daily = call_api(pro.daily, trade_date=trade_date)
+daily_basic = call_api(
+    pro.daily_basic,
     trade_date=trade_date,
     fields="ts_code,trade_date,close,turnover_rate,volume_ratio,pe,pe_ttm,pb,total_mv,circ_mv"
 )
@@ -37,7 +57,18 @@ daily_basic = pro.daily_basic(
 df = companies.merge(daily, on="ts_code", how="left")
 df = df.merge(daily_basic, on="ts_code", how="left", suffixes=("", "_basic"))
 
-df["generated_at"] = today.strftime("%Y-%m-%d %H:%M:%S")
+# 单位处理：Tushare amount 单位为千元，转亿元；市值单位万元，转亿元
+if "amount" in df.columns:
+    df["amount_yi"] = pd.to_numeric(df["amount"], errors="coerce") / 100000
+
+if "total_mv" in df.columns:
+    df["total_mv_yi"] = pd.to_numeric(df["total_mv"], errors="coerce") / 10000
+
+if "circ_mv" in df.columns:
+    df["circ_mv_yi"] = pd.to_numeric(df["circ_mv"], errors="coerce") / 10000
+
+df["generated_at_beijing"] = (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S")
+df["generated_at_dubai"] = (datetime.utcnow() + timedelta(hours=4)).strftime("%Y-%m-%d %H:%M:%S")
 
 out_csv = LATEST_DIR / "company_daily.csv"
 out_json = LATEST_DIR / "company_daily.json"
@@ -54,6 +85,7 @@ with open(out_json, "w", encoding="utf-8") as f:
         indent=2,
     )
 
+print(f"trade_date={trade_date}")
 print(f"Generated {out_csv}")
 print(f"Generated {out_json}")
 print(f"Generated {history_csv}")
