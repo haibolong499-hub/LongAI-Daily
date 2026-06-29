@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-06-29 13:50:41",
+  "generated_at": "2026-06-29 14:00:16",
   "trade_date": "20260629",
-  "longai_score": 100,
-  "sentiment": "强",
+  "longai_score": 44,
+  "sentiment": "偏弱",
+  "stars": "★★☆☆☆",
+  "top_sector": "AI应用",
+  "top_company": "中际旭创",
   "company_rows": 41,
-  "index_rows": 8
+  "index_rows": 8,
+  "score_parts": {
+    "公司上涨比例": 15,
+    "公司平均涨跌": 12,
+    "指数环境": 10,
+    "板块强度": 7,
+    "成交活跃度": 0
+  }
 }
