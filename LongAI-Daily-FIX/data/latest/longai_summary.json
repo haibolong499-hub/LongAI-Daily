@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-30 04:37:44",
+  "generated_at": "2026-06-30 19:42:17",
   "trade_date": "20260630",
-  "longai_score": 44,
-  "sentiment": "偏弱",
-  "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "科大讯飞",
+  "longai_score": 93,
+  "sentiment": "极强",
+  "stars": "★★★★★",
+  "top_sector": "AI芯片",
+  "top_company": "景嘉微",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 15,
-    "公司平均涨跌": 12,
-    "指数环境": 10,
-    "板块强度": 7,
-    "成交活跃度": 0
+    "公司上涨比例": 25.5,
+    "公司平均涨跌": 25,
+    "指数环境": 17.8415,
+    "板块强度": 15,
+    "成交活跃度": 10
   }
 }
