@@ -47,6 +47,7 @@ jobs:
           python LongAI-Daily-FIX/report/generate_image.py
           python LongAI-Daily-FIX/report/generate_api.py
           python LongAI-Daily-FIX/report/generate_history_index.py
+          python LongAI-Daily-FIX/report/generate_light_api.py
 
       - name: Commit generated data
         run: |
