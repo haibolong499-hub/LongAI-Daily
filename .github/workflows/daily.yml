@@ -1,7 +1,15 @@
 name: LongAI Daily Data
 
 on:
+  schedule:
+    # A股午盘后：北京时间 11:35 / 迪拜 07:35 / UTC 03:35
+    - cron: "35 3 * * 1-5"
+
+    # A股收盘后：北京时间 15:35 / 迪拜 11:35 / UTC 07:35
+    - cron: "35 7 * * 1-5"
+
   workflow_dispatch:
+
   push:
     branches:
       - main
