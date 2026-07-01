@@ -2,16 +2,16 @@
   "meta": {
     "name": "LongAI History Index",
     "version": "v1",
-    "generated_at_beijing": "2026-07-01 21:28:45",
-    "generated_at_dubai": "2026-07-01 17:28:45",
+    "generated_at_beijing": "2026-07-02 00:42:19",
+    "generated_at_dubai": "2026-07-01 20:42:19",
     "base_path": "LongAI-Daily-FIX/data/history/"
   },
   "counts": {
-    "all_files": 19,
-    "api_json": 2,
-    "company_daily_csv": 3,
-    "index_daily_csv": 3,
-    "longai_daily_md": 3
+    "all_files": 25,
+    "api_json": 3,
+    "company_daily_csv": 4,
+    "index_daily_csv": 4,
+    "longai_daily_md": 4
   },
   "files": {
     "api_json": [
@@ -20,14 +20,21 @@
         "path": "LongAI-Daily-FIX/data/history/api_20260630.json",
         "suffix": "json",
         "size": 72943,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "api_20260701.json",
         "path": "LongAI-Daily-FIX/data/history/api_20260701.json",
         "suffix": "json",
         "size": 73039,
-        "modified_time": "2026-07-01 13:28:45"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "api_20260702.json",
+        "path": "LongAI-Daily-FIX/data/history/api_20260702.json",
+        "suffix": "json",
+        "size": 66224,
+        "modified_time": "2026-07-01 16:42:19"
       }
     ],
     "company_daily_csv": [
@@ -36,21 +43,28 @@
         "path": "LongAI-Daily-FIX/data/history/company_daily_20260629.csv",
         "suffix": "csv",
         "size": 11741,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "company_daily_20260630.csv",
         "path": "LongAI-Daily-FIX/data/history/company_daily_20260630.csv",
         "suffix": "csv",
         "size": 10287,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "company_daily_20260701.csv",
         "path": "LongAI-Daily-FIX/data/history/company_daily_20260701.csv",
         "suffix": "csv",
         "size": 10267,
-        "modified_time": "2026-07-01 13:28:35"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "company_daily_20260702.csv",
+        "path": "LongAI-Daily-FIX/data/history/company_daily_20260702.csv",
+        "suffix": "csv",
+        "size": 3777,
+        "modified_time": "2026-07-01 16:42:08"
       }
     ],
     "index_daily_csv": [
@@ -59,21 +73,28 @@
         "path": "LongAI-Daily-FIX/data/history/index_daily_20260629.csv",
         "suffix": "csv",
         "size": 686,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "index_daily_20260630.csv",
         "path": "LongAI-Daily-FIX/data/history/index_daily_20260630.csv",
         "suffix": "csv",
         "size": 853,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "index_daily_20260701.csv",
         "path": "LongAI-Daily-FIX/data/history/index_daily_20260701.csv",
         "suffix": "csv",
         "size": 856,
-        "modified_time": "2026-07-01 13:28:44"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "index_daily_20260702.csv",
+        "path": "LongAI-Daily-FIX/data/history/index_daily_20260702.csv",
+        "suffix": "csv",
+        "size": 414,
+        "modified_time": "2026-07-01 16:42:18"
       }
     ],
     "longai_daily_md": [
@@ -82,21 +103,28 @@
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260629.md",
         "suffix": "md",
         "size": 5095,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "longai_daily_20260630.md",
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260630.md",
         "suffix": "md",
         "size": 5061,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "longai_daily_20260701.md",
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260701.md",
         "suffix": "md",
         "size": 5063,
-        "modified_time": "2026-07-01 13:28:45"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "longai_daily_20260702.md",
+        "path": "LongAI-Daily-FIX/data/history/longai_daily_20260702.md",
+        "suffix": "md",
+        "size": 4420,
+        "modified_time": "2026-07-01 16:42:18"
       }
     ],
     "all": [
@@ -105,133 +133,175 @@
         "path": "LongAI-Daily-FIX/data/history/20260626.json",
         "suffix": "json",
         "size": 23779,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "20260629.json",
         "path": "LongAI-Daily-FIX/data/history/20260629.json",
         "suffix": "json",
         "size": 23193,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "20260630.json",
         "path": "LongAI-Daily-FIX/data/history/20260630.json",
         "suffix": "json",
         "size": 23004,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "20260701.json",
         "path": "LongAI-Daily-FIX/data/history/20260701.json",
         "suffix": "json",
         "size": 23032,
-        "modified_time": "2026-07-01 13:28:31"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "20260702.json",
+        "path": "LongAI-Daily-FIX/data/history/20260702.json",
+        "suffix": "json",
+        "size": 2438,
+        "modified_time": "2026-07-01 16:42:06"
       },
       {
         "file_name": "api_20260630.json",
         "path": "LongAI-Daily-FIX/data/history/api_20260630.json",
         "suffix": "json",
         "size": 72943,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "api_20260701.json",
         "path": "LongAI-Daily-FIX/data/history/api_20260701.json",
         "suffix": "json",
         "size": 73039,
-        "modified_time": "2026-07-01 13:28:45"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "api_20260702.json",
+        "path": "LongAI-Daily-FIX/data/history/api_20260702.json",
+        "suffix": "json",
+        "size": 66224,
+        "modified_time": "2026-07-01 16:42:19"
       },
       {
         "file_name": "company_daily_20260629.csv",
         "path": "LongAI-Daily-FIX/data/history/company_daily_20260629.csv",
         "suffix": "csv",
         "size": 11741,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "company_daily_20260630.csv",
         "path": "LongAI-Daily-FIX/data/history/company_daily_20260630.csv",
         "suffix": "csv",
         "size": 10287,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "company_daily_20260701.csv",
         "path": "LongAI-Daily-FIX/data/history/company_daily_20260701.csv",
         "suffix": "csv",
         "size": 10267,
-        "modified_time": "2026-07-01 13:28:35"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "company_daily_20260702.csv",
+        "path": "LongAI-Daily-FIX/data/history/company_daily_20260702.csv",
+        "suffix": "csv",
+        "size": 3777,
+        "modified_time": "2026-07-01 16:42:08"
       },
       {
         "file_name": "index_daily_20260629.csv",
         "path": "LongAI-Daily-FIX/data/history/index_daily_20260629.csv",
         "suffix": "csv",
         "size": 686,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "index_daily_20260630.csv",
         "path": "LongAI-Daily-FIX/data/history/index_daily_20260630.csv",
         "suffix": "csv",
         "size": 853,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "index_daily_20260701.csv",
         "path": "LongAI-Daily-FIX/data/history/index_daily_20260701.csv",
         "suffix": "csv",
         "size": 856,
-        "modified_time": "2026-07-01 13:28:44"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "index_daily_20260702.csv",
+        "path": "LongAI-Daily-FIX/data/history/index_daily_20260702.csv",
+        "suffix": "csv",
+        "size": 414,
+        "modified_time": "2026-07-01 16:42:18"
       },
       {
         "file_name": "longai_daily_20260629.md",
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260629.md",
         "suffix": "md",
         "size": 5095,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "longai_daily_20260629.svg",
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260629.svg",
         "suffix": "svg",
         "size": 11075,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "longai_daily_20260630.md",
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260630.md",
         "suffix": "md",
         "size": 5061,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "longai_daily_20260630.svg",
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260630.svg",
         "suffix": "svg",
         "size": 11042,
-        "modified_time": "2026-07-01 13:27:54"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "longai_daily_20260701.md",
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260701.md",
         "suffix": "md",
         "size": 5063,
-        "modified_time": "2026-07-01 13:28:45"
+        "modified_time": "2026-07-01 16:41:32"
       },
       {
         "file_name": "longai_daily_20260701.svg",
         "path": "LongAI-Daily-FIX/data/history/longai_daily_20260701.svg",
         "suffix": "svg",
         "size": 11057,
-        "modified_time": "2026-07-01 13:28:45"
+        "modified_time": "2026-07-01 16:41:32"
+      },
+      {
+        "file_name": "longai_daily_20260702.md",
+        "path": "LongAI-Daily-FIX/data/history/longai_daily_20260702.md",
+        "suffix": "md",
+        "size": 4420,
+        "modified_time": "2026-07-01 16:42:18"
+      },
+      {
+        "file_name": "longai_daily_20260702.svg",
+        "path": "LongAI-Daily-FIX/data/history/longai_daily_20260702.svg",
+        "suffix": "svg",
+        "size": 10945,
+        "modified_time": "2026-07-01 16:42:18"
       },
       {
         "file_name": "summary_20260701.json",
         "path": "LongAI-Daily-FIX/data/history/summary_20260701.json",
         "suffix": "json",
-        "size": 975,
-        "modified_time": "2026-07-01 13:27:54"
+        "size": 974,
+        "modified_time": "2026-07-01 16:41:32"
       }
     ]
   }
