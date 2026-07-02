@@ -1,21 +1,21 @@
 {
   "name": "LongAI Summary",
-  "generated_at_beijing": "2026-07-02 00:42:19",
-  "generated_at_dubai": "2026-07-01 20:42:19",
+  "generated_at_beijing": "2026-07-02 19:57:30",
+  "generated_at_dubai": "2026-07-02 15:57:30",
   "trade_date": "20260702",
-  "longai_score": 44,
-  "sentiment": "偏弱",
-  "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "科大讯飞",
+  "longai_score": 17,
+  "sentiment": "弱",
+  "stars": "★☆☆☆☆",
+  "top_sector": "机器人",
+  "top_company": "三花智控",
   "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
   "market": {
     "trade_date": "20260702",
-    "total_amount_yi": null,
-    "stock_count": null,
-    "up_count": null,
-    "down_count": null,
-    "flat_count": null
+    "total_amount_yi": 34739.26,
+    "stock_count": 5517,
+    "up_count": 2219,
+    "down_count": 3162,
+    "flat_count": 136
   },
   "links": {
     "api": "LongAI-Daily-FIX/data/latest/api.json",

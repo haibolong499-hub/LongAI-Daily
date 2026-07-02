@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-02 00:42:18",
+  "generated_at": "2026-07-02 19:57:29",
   "trade_date": "20260702",
-  "longai_score": 44,
-  "sentiment": "偏弱",
-  "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "科大讯飞",
+  "longai_score": 17,
+  "sentiment": "弱",
+  "stars": "★☆☆☆☆",
+  "top_sector": "机器人",
+  "top_company": "三花智控",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 15,
-    "公司平均涨跌": 12,
-    "指数环境": 10,
-    "板块强度": 7,
-    "成交活跃度": 0
+    "公司上涨比例": 2.25,
+    "公司平均涨跌": 0,
+    "指数环境": 0,
+    "板块强度": 4.9515,
+    "成交活跃度": 10
   }
 }
