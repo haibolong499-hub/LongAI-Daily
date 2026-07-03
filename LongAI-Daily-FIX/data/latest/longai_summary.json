@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-02 21:23:05",
-  "trade_date": "20260702",
-  "longai_score": 17,
-  "sentiment": "弱",
-  "stars": "★☆☆☆☆",
+  "generated_at": "2026-07-03 19:56:28",
+  "trade_date": "20260703",
+  "longai_score": 80,
+  "sentiment": "强",
+  "stars": "★★★★☆",
   "top_sector": "机器人",
-  "top_company": "三花智控",
+  "top_company": "北京君正",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 2.25,
-    "公司平均涨跌": 0,
-    "指数环境": 0,
-    "板块强度": 4.9515,
+    "公司上涨比例": 21.75,
+    "公司平均涨跌": 21.99553,
+    "指数环境": 11.1445,
+    "板块强度": 15,
     "成交活跃度": 10
   }
 }
