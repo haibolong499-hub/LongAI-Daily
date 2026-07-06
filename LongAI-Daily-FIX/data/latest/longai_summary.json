@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-03 21:25:49",
-  "trade_date": "20260703",
-  "longai_score": 80,
-  "sentiment": "强",
-  "stars": "★★★★☆",
-  "top_sector": "机器人",
-  "top_company": "北京君正",
+  "generated_at": "2026-07-06 22:48:01",
+  "trade_date": "20260706",
+  "longai_score": 55,
+  "sentiment": "中性",
+  "stars": "★★★☆☆",
+  "top_sector": "液冷",
+  "top_company": "江波龙",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 21.75,
-    "公司平均涨跌": 21.99553,
-    "指数环境": 11.1445,
+    "公司上涨比例": 11.25,
+    "公司平均涨跌": 10.944569999999999,
+    "指数环境": 8.08165,
     "板块强度": 15,
     "成交活跃度": 10
   }
