@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-06 22:48:01",
-  "trade_date": "20260706",
-  "longai_score": 55,
-  "sentiment": "中性",
-  "stars": "★★★☆☆",
-  "top_sector": "液冷",
-  "top_company": "江波龙",
+  "generated_at": "2026-07-07 01:50:30",
+  "trade_date": "20260707",
+  "longai_score": 44,
+  "sentiment": "偏弱",
+  "stars": "★★☆☆☆",
+  "top_sector": "AI应用",
+  "top_company": "科大讯飞",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 11.25,
-    "公司平均涨跌": 10.944569999999999,
-    "指数环境": 8.08165,
-    "板块强度": 15,
-    "成交活跃度": 10
+    "公司上涨比例": 15,
+    "公司平均涨跌": 12,
+    "指数环境": 10,
+    "板块强度": 7,
+    "成交活跃度": 0
   }
 }
