@@ -1,21 +1,21 @@
 {
   "name": "LongAI Summary",
-  "generated_at_beijing": "2026-07-07 01:50:31",
-  "generated_at_dubai": "2026-07-06 21:50:31",
+  "generated_at_beijing": "2026-07-07 20:40:46",
+  "generated_at_dubai": "2026-07-07 16:40:46",
   "trade_date": "20260707",
   "longai_score": 44,
   "sentiment": "偏弱",
   "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "科大讯飞",
+  "top_sector": "AI芯片",
+  "top_company": "埃斯顿",
   "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
   "market": {
     "trade_date": "20260707",
-    "total_amount_yi": null,
-    "stock_count": null,
-    "up_count": null,
-    "down_count": null,
-    "flat_count": null
+    "total_amount_yi": 25984.66,
+    "stock_count": 5517,
+    "up_count": 693,
+    "down_count": 4797,
+    "flat_count": 27
   },
   "links": {
     "api": "LongAI-Daily-FIX/data/latest/api.json",
