@@ -1,21 +1,21 @@
 {
   "name": "LongAI Summary",
-  "generated_at_beijing": "2026-07-08 00:43:49",
-  "generated_at_dubai": "2026-07-07 20:43:49",
+  "generated_at_beijing": "2026-07-08 19:19:33",
+  "generated_at_dubai": "2026-07-08 15:19:33",
   "trade_date": "20260708",
-  "longai_score": 44,
-  "sentiment": "偏弱",
+  "longai_score": 53,
+  "sentiment": "中性",
   "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "科大讯飞",
-  "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
+  "top_sector": "AI服务器",
+  "top_company": "浪潮信息",
+  "conclusion": "AI核心资产整体中性，结构性机会主要集中在 AI服务器。",
   "market": {
     "trade_date": "20260708",
-    "total_amount_yi": null,
-    "stock_count": null,
-    "up_count": null,
-    "down_count": null,
-    "flat_count": null
+    "total_amount_yi": 25825.92,
+    "stock_count": 5518,
+    "up_count": 1593,
+    "down_count": 3790,
+    "flat_count": 135
   },
   "links": {
     "api": "LongAI-Daily-FIX/data/latest/api.json",
