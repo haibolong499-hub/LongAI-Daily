@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-08 21:17:42",
-  "trade_date": "20260708",
-  "longai_score": 53,
-  "sentiment": "中性",
+  "generated_at": "2026-07-10 01:04:15",
+  "trade_date": "20260710",
+  "longai_score": 44,
+  "sentiment": "偏弱",
   "stars": "★★☆☆☆",
-  "top_sector": "AI服务器",
-  "top_company": "浪潮信息",
+  "top_sector": "AI应用",
+  "top_company": "科大讯飞",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 12.75,
-    "公司平均涨跌": 9.30498,
-    "指数环境": 6.1286000000000005,
-    "板块强度": 15,
-    "成交活跃度": 10
+    "公司上涨比例": 15,
+    "公司平均涨跌": 12,
+    "指数环境": 10,
+    "板块强度": 7,
+    "成交活跃度": 0
   }
 }
