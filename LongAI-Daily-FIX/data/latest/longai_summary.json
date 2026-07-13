@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-13 20:44:00",
-  "trade_date": "20260713",
-  "longai_score": 17,
-  "sentiment": "弱",
-  "stars": "★☆☆☆☆",
-  "top_sector": "电力",
-  "top_company": "思源电气",
+  "generated_at": "2026-07-14 00:44:49",
+  "trade_date": "20260714",
+  "longai_score": 44,
+  "sentiment": "偏弱",
+  "stars": "★★☆☆☆",
+  "top_sector": "AI应用",
+  "top_company": "科大讯飞",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 4.390243902439024,
-    "公司平均涨跌": 0,
-    "指数环境": 0,
-    "板块强度": 3.00885,
-    "成交活跃度": 10
+    "公司上涨比例": 15,
+    "公司平均涨跌": 12,
+    "指数环境": 10,
+    "板块强度": 7,
+    "成交活跃度": 0
   }
 }
