@@ -1,5 +1,5 @@
 {
-  "generated_at_beijing": "2026-07-14 18:20:07",
+  "generated_at_beijing": "2026-07-14 20:03:46",
   "trade_date": "20260714",
   "data_source": {
     "primary": "Tushare Pro",
@@ -589,7 +589,7 @@
       "net_rate": 0.47,
       "amount_rate": 28.79,
       "float_values": 21677220333.72,
-      "reason": "日换手率达到20%的前5只证券"
+      "reason": "日振幅值达到15%的前5只证券"
     },
     {
       "trade_date": "20260714",
@@ -725,7 +725,7 @@
       "net_rate": 1.25,
       "amount_rate": 38.36,
       "float_values": 69302499098.56,
-      "reason": "日振幅值达到15%的前5只证券"
+      "reason": "日涨幅偏离值达到7%的前5只证券"
     },
     {
       "trade_date": "20260714",
