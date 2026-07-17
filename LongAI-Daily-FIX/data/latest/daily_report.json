@@ -1,5 +1,5 @@
 {
-  "generated_at_beijing": "2026-07-17 18:21:45",
+  "generated_at_beijing": "2026-07-17 20:00:10",
   "trade_date": "20260717",
   "data_source": {
     "primary": "Tushare Pro",
@@ -330,19 +330,6 @@
       "amount": 351976.21832
     },
     {
-      "ts_code": "301042.SZ",
-      "trade_date": "20260717",
-      "open": 43.25,
-      "high": 51.96,
-      "low": 41.63,
-      "close": 41.63,
-      "pre_close": 52.04,
-      "change": -10.41,
-      "pct_chg": -20.0038,
-      "vol": 97533.5,
-      "amount": 425740.11518
-    },
-    {
       "ts_code": "301096.SZ",
       "trade_date": "20260717",
       "open": 51.01,
@@ -354,6 +341,19 @@
       "pct_chg": -20.0038,
       "vol": 87850.15,
       "amount": 392852.17784
+    },
+    {
+      "ts_code": "301042.SZ",
+      "trade_date": "20260717",
+      "open": 43.25,
+      "high": 51.96,
+      "low": 41.63,
+      "close": 41.63,
+      "pre_close": 52.04,
+      "change": -10.41,
+      "pct_chg": -20.0038,
+      "vol": 97533.5,
+      "amount": 425740.11518
     },
     {
       "ts_code": "688046.SH",
