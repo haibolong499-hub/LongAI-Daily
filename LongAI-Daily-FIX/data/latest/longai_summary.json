@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-20 23:24:27",
-  "trade_date": "20260720",
-  "longai_score": 54,
-  "sentiment": "中性",
-  "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "金山办公",
+  "generated_at": "2026-07-21 19:21:07",
+  "trade_date": "20260721",
+  "longai_score": 99,
+  "sentiment": "极强",
+  "stars": "★★★★★",
+  "top_sector": "半导体设备",
+  "top_company": "拓荆科技",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 13.902439024390244,
-    "公司平均涨跌": 4.273951219512195,
-    "指数环境": 10.55635,
+    "公司上涨比例": 29.268292682926827,
+    "公司平均涨跌": 25,
+    "指数环境": 20,
     "板块强度": 15,
     "成交活跃度": 10
   }
