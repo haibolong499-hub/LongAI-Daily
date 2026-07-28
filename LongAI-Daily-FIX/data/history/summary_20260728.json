@@ -1,21 +1,21 @@
 {
   "name": "LongAI Summary",
-  "generated_at_beijing": "2026-07-28 14:09:31",
-  "generated_at_dubai": "2026-07-28 10:09:31",
+  "generated_at_beijing": "2026-07-28 18:13:28",
+  "generated_at_dubai": "2026-07-28 14:13:28",
   "trade_date": "20260728",
-  "longai_score": 44,
-  "sentiment": "偏弱",
-  "stars": "★★☆☆☆",
+  "longai_score": 23,
+  "sentiment": "弱",
+  "stars": "★☆☆☆☆",
   "top_sector": "AI应用",
-  "top_company": "科大讯飞",
+  "top_company": "用友网络",
   "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
   "market": {
     "trade_date": "20260728",
-    "total_amount_yi": null,
-    "stock_count": null,
-    "up_count": null,
-    "down_count": null,
-    "flat_count": null
+    "total_amount_yi": 20391.39,
+    "stock_count": 5524,
+    "up_count": 2603,
+    "down_count": 2769,
+    "flat_count": 152
   },
   "links": {
     "api": "LongAI-Daily-FIX/data/latest/api.json",
