@@ -1,61 +1,66 @@
 {
-  "generated_at_beijing": "2026-08-12 13:15:13",
+  "generated_at_beijing": "2026-08-12 16:50:31",
   "trade_date": "20260812",
   "data_source": {
     "primary": "Tushare Pro",
     "notes": "涨跌家数、成交额为Tushare股票日线口径；部分数据可能在盘后延迟更新。"
   },
   "market": {
-    "trade_date": "20260812"
+    "trade_date": "20260812",
+    "stock_count": 5539,
+    "up_count": 4128,
+    "down_count": 1280,
+    "flat_count": 131,
+    "total_amount_yi": 21671.64
   },
   "indices": [
     {
       "name": "上证指数",
       "ts_code": "000001.SH",
-      "trade_date": "20260811",
-      "close": 3934.0929,
-      "pct_chg": -0.82,
-      "amount_yi": 10667.37
+      "trade_date": "20260812",
+      "close": 3946.6752,
+      "pct_chg": 0.32,
+      "amount_yi": 9861.22
     },
     {
       "name": "深证成指",
       "ts_code": "399001.SZ",
-      "trade_date": "20260811",
-      "close": 14259.4404,
-      "pct_chg": -0.4,
-      "amount_yi": 7048.69
+      "trade_date": "20260812",
+      "close": 14414.4267,
+      "pct_chg": 1.09,
+      "amount_yi": 6452.45
     },
     {
       "name": "创业板指",
       "ts_code": "399006.SZ",
-      "trade_date": "20260811",
-      "close": 3549.1641,
-      "pct_chg": 0.34,
-      "amount_yi": 2771.0
+      "trade_date": "20260812",
+      "close": 3602.0835,
+      "pct_chg": 1.49,
+      "amount_yi": 2539.21
     },
     {
       "name": "沪深300",
       "ts_code": "000300.SH",
-      "trade_date": "20260811",
-      "close": 4663.7887,
-      "pct_chg": -0.81,
-      "amount_yi": 6453.85
+      "trade_date": "20260812",
+      "close": 4690.9165,
+      "pct_chg": 0.58,
+      "amount_yi": 5753.26
     },
     {
       "name": "科创50",
       "ts_code": "000688.SH",
-      "trade_date": "20260811",
-      "close": 1709.5026,
-      "pct_chg": -1.63,
-      "amount_yi": 1104.06
+      "trade_date": "20260812",
+      "close": 1736.9912,
+      "pct_chg": 1.61,
+      "amount_yi": 1032.81
     },
     {
       "name": "中证1000",
       "ts_code": "000852.SH",
-      "trade_date": "20260811",
-      "close": 7698.0479,
-      "pct_chg": -0.46,
-      "amount_yi": 5152.82
+      "trade_date": "20260812",
+      "close": 7793.7165,
+      "pct_chg": 1.24,
+      "amount_yi": 4798.05
     }
   ],
   "turnover_10d": [
@@ -97,15 +102,277 @@
     },
     {
       "trade_date": "20260812",
-      "total_amount_yi": null
+      "total_amount_yi": 21671.64
     }
   ],
-  "top_gainers": [],
-  "top_losers": [],
+  "top_gainers": [
+    {
+      "ts_code": "920138.BJ",
+      "trade_date": "20260812",
+      "open": 53.0,
+      "high": 59.54,
+      "low": 52.5,
+      "close": 53.26,
+      "pre_close": 18.86,
+      "change": 34.4,
+      "pct_chg": 182.3966,
+      "vol": 285357.72,
+      "amount": 1570377.48422
+    },
+    {
+      "ts_code": "920856.BJ",
+      "trade_date": "20260812",
+      "open": 11.61,
+      "high": 14.93,
+      "low": 11.46,
+      "close": 14.93,
+      "pre_close": 11.49,
+      "change": 3.44,
+      "pct_chg": 29.9391,
+      "vol": 98192.98,
+      "amount": 141368.68338
+    },
+    {
+      "ts_code": "920826.BJ",
+      "trade_date": "20260812",
+      "open": 8.02,
+      "high": 10.4,
+      "low": 8.0,
+      "close": 9.78,
+      "pre_close": 8.0,
+      "change": 1.78,
+      "pct_chg": 22.25,
+      "vol": 178975.25,
+      "amount": 166818.125
+    },
+    {
+      "ts_code": "688167.SH",
+      "trade_date": "20260812",
+      "open": 207.0,
+      "high": 245.52,
+      "low": 205.0,
+      "close": 245.52,
+      "pre_close": 204.6,
+      "change": 40.92,
+      "pct_chg": 20.0,
+      "vol": 86147.16,
+      "amount": 2001940.257
+    },
+    {
+      "ts_code": "688635.SH",
+      "trade_date": "20260812",
+      "open": 251.3,
+      "high": 300.02,
+      "low": 246.27,
+      "close": 300.02,
+      "pre_close": 250.02,
+      "change": 50.0,
+      "pct_chg": 19.9984,
+      "vol": 45076.02,
+      "amount": 1256980.443
+    },
+    {
+      "ts_code": "301315.SZ",
+      "trade_date": "20260812",
+      "open": 40.4,
+      "high": 46.16,
+      "low": 40.4,
+      "close": 46.16,
+      "pre_close": 38.47,
+      "change": 7.69,
+      "pct_chg": 19.9896,
+      "vol": 58793.44,
+      "amount": 261712.72727
+    },
+    {
+      "ts_code": "300862.SZ",
+      "trade_date": "20260812",
+      "open": 32.84,
+      "high": 32.84,
+      "low": 32.84,
+      "close": 32.84,
+      "pre_close": 27.37,
+      "change": 5.47,
+      "pct_chg": 19.9854,
+      "vol": 20765.4,
+      "amount": 68193.5736
+    },
+    {
+      "ts_code": "301602.SZ",
+      "trade_date": "20260812",
+      "open": 15.25,
+      "high": 18.38,
+      "low": 15.25,
+      "close": 18.38,
+      "pre_close": 15.32,
+      "change": 3.06,
+      "pct_chg": 19.9739,
+      "vol": 127243.01,
+      "amount": 226785.82445
+    },
+    {
+      "ts_code": "300197.SZ",
+      "trade_date": "20260812",
+      "open": 1.91,
+      "high": 2.3,
+      "low": 1.9,
+      "close": 2.3,
+      "pre_close": 1.92,
+      "change": 0.38,
+      "pct_chg": 19.7917,
+      "vol": 2956453.19,
+      "amount": 612238.06588
+    },
+    {
+      "ts_code": "301129.SZ",
+      "trade_date": "20260812",
+      "open": 21.22,
+      "high": 25.46,
+      "low": 21.01,
+      "close": 24.88,
+      "pre_close": 21.22,
+      "change": 3.66,
+      "pct_chg": 17.2479,
+      "vol": 78664.53,
+      "amount": 189314.52521
+    }
+  ],
+  "top_losers": [
+    {
+      "ts_code": "301201.SZ",
+      "trade_date": "20260812",
+      "open": 38.45,
+      "high": 40.45,
+      "low": 35.55,
+      "close": 35.75,
+      "pre_close": 39.94,
+      "change": -4.19,
+      "pct_chg": -10.4907,
+      "vol": 301732.73,
+      "amount": 1118515.19451
+    },
+    {
+      "ts_code": "920165.BJ",
+      "trade_date": "20260812",
+      "open": 44.4,
+      "high": 45.0,
+      "low": 40.66,
+      "close": 41.33,
+      "pre_close": 45.94,
+      "change": -4.61,
+      "pct_chg": -10.0348,
+      "vol": 43552.35,
+      "amount": 181963.23369
+    },
+    {
+      "ts_code": "000571.SZ",
+      "trade_date": "20260812",
+      "open": 7.08,
+      "high": 7.1,
+      "low": 6.64,
+      "close": 6.69,
+      "pre_close": 7.38,
+      "change": -0.69,
+      "pct_chg": -9.3496,
+      "vol": 918457.6,
+      "amount": 619881.08078
+    },
+    {
+      "ts_code": "600285.SH",
+      "trade_date": "20260812",
+      "open": 20.58,
+      "high": 20.87,
+      "low": 20.38,
+      "close": 20.47,
+      "pre_close": 22.55,
+      "change": -2.08,
+      "pct_chg": -9.2239,
+      "vol": 438358.03,
+      "amount": 901765.449
+    },
+    {
+      "ts_code": "300483.SZ",
+      "trade_date": "20260812",
+      "open": 24.84,
+      "high": 24.89,
+      "low": 23.0,
+      "close": 23.1,
+      "pre_close": 24.88,
+      "change": -1.78,
+      "pct_chg": -7.1543,
+      "vol": 199485.2,
+      "amount": 468297.54227
+    },
+    {
+      "ts_code": "000779.SZ",
+      "trade_date": "20260812",
+      "open": 11.96,
+      "high": 12.72,
+      "low": 11.64,
+      "close": 11.92,
+      "pre_close": 12.73,
+      "change": -0.81,
+      "pct_chg": -6.3629,
+      "vol": 1242837.3,
+      "amount": 1504432.516
+    },
+    {
+      "ts_code": "300214.SZ",
+      "trade_date": "20260812",
+      "open": 12.45,
+      "high": 13.05,
+      "low": 12.11,
+      "close": 12.2,
+      "pre_close": 13.01,
+      "change": -0.81,
+      "pct_chg": -6.226,
+      "vol": 775056.25,
+      "amount": 961772.70268
+    },
+    {
+      "ts_code": "605336.SH",
+      "trade_date": "20260812",
+      "open": 12.2,
+      "high": 12.2,
+      "low": 11.35,
+      "close": 11.51,
+      "pre_close": 12.24,
+      "change": -0.73,
+      "pct_chg": -5.9641,
+      "vol": 56471.2,
+      "amount": 65188.167
+    },
+    {
+      "ts_code": "300426.SZ",
+      "trade_date": "20260812",
+      "open": 7.51,
+      "high": 7.98,
+      "low": 7.26,
+      "close": 7.35,
+      "pre_close": 7.8,
+      "change": -0.45,
+      "pct_chg": -5.7692,
+      "vol": 807334.31,
+      "amount": 610646.55746
+    },
+    {
+      "ts_code": "688137.SH",
+      "trade_date": "20260812",
+      "open": 56.29,
+      "high": 57.49,
+      "low": 53.08,
+      "close": 53.33,
+      "pre_close": 56.5,
+      "change": -3.17,
+      "pct_chg": -5.6106,
+      "vol": 60178.14,
+      "amount": 329411.869
+    }
+  ],
   "top_list": [],
   "margin": [],
   "quality_check": {
-    "has_market": false,
+    "has_market": true,
     "has_indices": true,
     "has_turnover_10d": true,
     "has_top_list": false,
