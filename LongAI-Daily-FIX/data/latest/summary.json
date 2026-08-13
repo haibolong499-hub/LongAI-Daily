@@ -1,21 +1,21 @@
 {
   "name": "LongAI Summary",
-  "generated_at_beijing": "2026-08-13 13:18:48",
-  "generated_at_dubai": "2026-08-13 09:18:48",
+  "generated_at_beijing": "2026-08-13 16:53:17",
+  "generated_at_dubai": "2026-08-13 12:53:17",
   "trade_date": "20260813",
-  "longai_score": 44,
+  "longai_score": 49,
   "sentiment": "偏弱",
   "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "科大讯飞",
+  "top_sector": "AI服务器",
+  "top_company": "天孚通信",
   "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
   "market": {
     "trade_date": "20260813",
-    "total_amount_yi": null,
-    "stock_count": null,
-    "up_count": null,
-    "down_count": null,
-    "flat_count": null
+    "total_amount_yi": 25679.77,
+    "stock_count": 5540,
+    "up_count": 1143,
+    "down_count": 4317,
+    "flat_count": 80
   },
   "links": {
     "api": "LongAI-Daily-FIX/data/latest/api.json",
