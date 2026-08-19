@@ -1,21 +1,21 @@
 {
   "name": "LongAI Summary",
-  "generated_at_beijing": "2026-08-19 12:09:09",
-  "generated_at_dubai": "2026-08-19 08:09:09",
+  "generated_at_beijing": "2026-08-19 16:06:35",
+  "generated_at_dubai": "2026-08-19 12:06:35",
   "trade_date": "20260819",
-  "longai_score": 44,
-  "sentiment": "偏弱",
-  "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "科大讯飞",
+  "longai_score": 10,
+  "sentiment": "弱",
+  "stars": "★☆☆☆☆",
+  "top_sector": "电力",
+  "top_company": "特变电工",
   "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
   "market": {
     "trade_date": "20260819",
-    "total_amount_yi": null,
-    "stock_count": null,
-    "up_count": null,
-    "down_count": null,
-    "flat_count": null
+    "total_amount_yi": 25300.11,
+    "stock_count": 5541,
+    "up_count": 449,
+    "down_count": 5069,
+    "flat_count": 23
   },
   "links": {
     "api": "LongAI-Daily-FIX/data/latest/api.json",
