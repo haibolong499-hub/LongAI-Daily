@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-20 16:08:49",
-  "trade_date": "20260820",
-  "longai_score": 63,
-  "sentiment": "中性",
-  "stars": "★★★☆☆",
-  "top_sector": "AI硬件",
-  "top_company": "太辰光",
+  "generated_at": "2026-08-21 12:10:41",
+  "trade_date": "20260821",
+  "longai_score": 44,
+  "sentiment": "偏弱",
+  "stars": "★★☆☆☆",
+  "top_sector": "AI应用",
+  "top_company": "科大讯飞",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 14.634146341463413,
-    "公司平均涨跌": 12.730292682926828,
-    "指数环境": 11.0081,
-    "板块强度": 15,
-    "成交活跃度": 10
+    "公司上涨比例": 15,
+    "公司平均涨跌": 12,
+    "指数环境": 10,
+    "板块强度": 7,
+    "成交活跃度": 0
   }
 }
