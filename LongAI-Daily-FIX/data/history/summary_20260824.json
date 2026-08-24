@@ -1,21 +1,21 @@
 {
   "name": "LongAI Summary",
-  "generated_at_beijing": "2026-08-24 12:22:01",
-  "generated_at_dubai": "2026-08-24 08:22:01",
+  "generated_at_beijing": "2026-08-24 16:23:34",
+  "generated_at_dubai": "2026-08-24 12:23:34",
   "trade_date": "20260824",
-  "longai_score": 44,
-  "sentiment": "偏弱",
-  "stars": "★★☆☆☆",
-  "top_sector": "AI应用",
-  "top_company": "科大讯飞",
+  "longai_score": 28,
+  "sentiment": "弱",
+  "stars": "★☆☆☆☆",
+  "top_sector": "液冷",
+  "top_company": "高澜股份",
   "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
   "market": {
     "trade_date": "20260824",
-    "total_amount_yi": null,
-    "stock_count": null,
-    "up_count": null,
-    "down_count": null,
-    "flat_count": null
+    "total_amount_yi": 20212.15,
+    "stock_count": 5545,
+    "up_count": 1460,
+    "down_count": 3965,
+    "flat_count": 120
   },
   "links": {
     "api": "LongAI-Daily-FIX/data/latest/api.json",
