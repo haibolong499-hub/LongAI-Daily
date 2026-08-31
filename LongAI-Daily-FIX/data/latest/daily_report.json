@@ -1,5 +1,5 @@
 {
-  "generated_at_beijing": "2026-08-31 18:01:08",
+  "generated_at_beijing": "2026-08-31 23:23:12",
   "trade_date": "20260831",
   "data_source": {
     "primary": "Tushare Pro",
@@ -172,19 +172,6 @@
       "amount": 721101.17279
     },
     {
-      "ts_code": "301218.SZ",
-      "trade_date": "20260831",
-      "open": 49.5,
-      "high": 58.14,
-      "low": 49.5,
-      "close": 58.14,
-      "pre_close": 48.45,
-      "change": 9.69,
-      "pct_chg": 20.0,
-      "vol": 173273.94,
-      "amount": 940600.13275
-    },
-    {
       "ts_code": "300413.SZ",
       "trade_date": "20260831",
       "open": 15.5,
@@ -196,6 +183,19 @@
       "pct_chg": 20.0,
       "vol": 655322.44,
       "amount": 1086735.44394
+    },
+    {
+      "ts_code": "301218.SZ",
+      "trade_date": "20260831",
+      "open": 49.5,
+      "high": 58.14,
+      "low": 49.5,
+      "close": 58.14,
+      "pre_close": 48.45,
+      "change": 9.69,
+      "pct_chg": 20.0,
+      "vol": 173273.94,
+      "amount": 940600.13275
     },
     {
       "ts_code": "301262.SZ",
@@ -453,7 +453,7 @@
       "net_rate": 2.89,
       "amount_rate": 21.13,
       "float_values": 3788004145.38,
-      "reason": "日换手率达到20%的前5只证券"
+      "reason": "日振幅值达到15%的前5只证券"
     },
     {
       "trade_date": "20260831",
@@ -606,7 +606,7 @@
       "net_rate": -13.52,
       "amount_rate": 28.99,
       "float_values": 9188695518.4,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
+      "reason": "日换手率达到20%的前5只证券"
     },
     {
       "trade_date": "20260831",
