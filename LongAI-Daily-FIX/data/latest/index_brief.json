@@ -1,6 +1,6 @@
 {
   "name": "LongAI Index Brief",
-  "generated_at_beijing": "2026-09-03 16:14:49",
+  "generated_at_beijing": "2026-09-03 20:14:45",
   "trade_date": "20260903",
   "indices": [
     {
@@ -10,12 +10,12 @@
       "close": 7755.3612,
       "pct_chg": 0.338,
       "amount_yi": 2994.26,
-      "pe": null,
-      "pe_ttm": null,
-      "pb": null,
-      "turnover_rate": null,
-      "total_mv_yi": null,
-      "float_mv_yi": null
+      "pe": 38.2494,
+      "pe_ttm": 33.1542,
+      "pb": 2.4052,
+      "turnover_rate": 1.3689,
+      "total_mv_yi": 1843696476.94,
+      "float_mv_yi": 1561613345.64
     },
     {
       "trade_date": 20260903,
@@ -38,12 +38,12 @@
       "close": 2919.4986,
       "pct_chg": 0.1734,
       "amount_yi": 1184.29,
-      "pe": null,
-      "pe_ttm": null,
-      "pb": null,
-      "turnover_rate": null,
-      "total_mv_yi": null,
-      "float_mv_yi": null
+      "pe": 11.9495,
+      "pe_ttm": 10.9485,
+      "pb": 1.2454,
+      "turnover_rate": 0.2672,
+      "total_mv_yi": 2880852730.54,
+      "float_mv_yi": 2306787421.96
     },
     {
       "trade_date": 20260903,
@@ -52,12 +52,12 @@
       "close": 4552.5784,
       "pct_chg": 0.1016,
       "amount_yi": 4399.41,
-      "pe": null,
-      "pe_ttm": null,
-      "pb": null,
-      "turnover_rate": null,
-      "total_mv_yi": null,
-      "float_mv_yi": null
+      "pe": 14.7493,
+      "pe_ttm": 13.6746,
+      "pb": 1.4362,
+      "turnover_rate": 0.5438,
+      "total_mv_yi": 6834749017.77,
+      "float_mv_yi": 5210298933.7
     },
     {
       "trade_date": 20260903,
@@ -66,12 +66,12 @@
       "close": 13625.1217,
       "pct_chg": 0.0997,
       "amount_yi": 4553.72,
-      "pe": null,
-      "pe_ttm": null,
-      "pb": null,
-      "turnover_rate": null,
-      "total_mv_yi": null,
-      "float_mv_yi": null
+      "pe": 35.0069,
+      "pe_ttm": 30.3167,
+      "pb": 2.7517,
+      "turnover_rate": 1.5071,
+      "total_mv_yi": 2955168287.96,
+      "float_mv_yi": 2523010414.17
     },
     {
       "trade_date": 20260903,
@@ -80,12 +80,12 @@
       "close": 3942.0879,
       "pct_chg": 0.0178,
       "amount_yi": 8198.82,
-      "pe": null,
-      "pe_ttm": null,
-      "pb": null,
-      "turnover_rate": null,
-      "total_mv_yi": null,
-      "float_mv_yi": null
+      "pe": 17.1955,
+      "pe_ttm": 15.9843,
+      "pb": 1.4601,
+      "turnover_rate": 1.0178,
+      "total_mv_yi": 7764182622.54,
+      "float_mv_yi": 6086453360.74
     },
     {
       "trade_date": 20260903,
@@ -94,12 +94,12 @@
       "close": 3312.5411,
       "pct_chg": 0.009,
       "amount_yi": 1666.65,
-      "pe": null,
-      "pe_ttm": null,
-      "pb": null,
-      "turnover_rate": null,
-      "total_mv_yi": null,
-      "float_mv_yi": null
+      "pe": 46.4674,
+      "pe_ttm": 38.0874,
+      "pb": 5.3599,
+      "turnover_rate": 2.1161,
+      "total_mv_yi": 986014818.67,
+      "float_mv_yi": 830243870.98
     },
     {
       "trade_date": 20260903,
