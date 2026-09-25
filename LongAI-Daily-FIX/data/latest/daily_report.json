@@ -1,5 +1,5 @@
 {
-  "generated_at_beijing": "2026-09-24 20:52:45",
+  "generated_at_beijing": "2026-09-25 17:02:11",
   "trade_date": "20260924",
   "data_source": {
     "primary": "Tushare Pro",
@@ -881,12 +881,24 @@
       "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券"
     }
   ],
-  "margin": [],
+  "margin": [
+    {
+      "trade_date": "20260924",
+      "exchange_id": "SSE",
+      "rzye": 1331841736225.0,
+      "rzmre": 77396224473.0,
+      "rzche": 86320164892.0,
+      "rqye": 18664487521.0,
+      "rqmcl": 84996899.0,
+      "rzrqye": 1350506223746.0,
+      "rqyl": 3159503720.0
+    }
+  ],
   "quality_check": {
     "has_market": true,
     "has_indices": true,
     "has_turnover_10d": true,
     "has_top_list": true,
-    "has_margin": false
+    "has_margin": true
   }
 }

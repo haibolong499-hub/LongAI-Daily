@@ -1,6 +1,6 @@
 {
   "name": "LongAI Index Brief",
-  "generated_at_beijing": "2026-09-24 20:53:05",
+  "generated_at_beijing": "2026-09-25 17:02:26",
   "trade_date": "20260924",
   "indices": [
     {
@@ -42,8 +42,8 @@
       "pe_ttm": 13.3368,
       "pb": 1.4045,
       "turnover_rate": 0.4534,
-      "total_mv_yi": 6665891153.28,
-      "float_mv_yi": 5078071244.01
+      "total_mv_yi": 6665891615.46,
+      "float_mv_yi": 5078071706.19
     },
     {
       "trade_date": 20260924,
@@ -56,8 +56,8 @@
       "pe_ttm": 32.629,
       "pb": 2.369,
       "turnover_rate": 1.1342,
-      "total_mv_yi": 1814488848.29,
-      "float_mv_yi": 1534238118.81
+      "total_mv_yi": 1814488859.19,
+      "float_mv_yi": 1534216760.17
     },
     {
       "trade_date": 20260924,
@@ -66,12 +66,12 @@
       "close": 7570.1448,
       "pct_chg": -2.2647,
       "amount_yi": 3433.06,
-      "pe": 45.8711,
-      "pe_ttm": 43.4132,
-      "pb": 2.3917,
+      "pe": 45.8723,
+      "pe_ttm": 43.4144,
+      "pb": 2.3918,
       "turnover_rate": 1.8642,
-      "total_mv_yi": 1470293085.89,
-      "float_mv_yi": 1304792553.28
+      "total_mv_yi": 1470332801.18,
+      "float_mv_yi": 1304801498.39
     },
     {
       "trade_date": 20260924,
@@ -80,12 +80,12 @@
       "close": 13316.9689,
       "pct_chg": -2.3402,
       "amount_yi": 4023.49,
-      "pe": 34.0726,
-      "pe_ttm": 29.5076,
+      "pe": 34.0727,
+      "pe_ttm": 29.5077,
       "pb": 2.6839,
       "turnover_rate": 1.3006,
-      "total_mv_yi": 2876298939.41,
-      "float_mv_yi": 2456742611.71
+      "total_mv_yi": 2876309926.22,
+      "float_mv_yi": 2456732228.72
     },
     {
       "trade_date": 20260924,
@@ -112,8 +112,8 @@
       "pe_ttm": 37.4202,
       "pb": 5.2733,
       "turnover_rate": 1.7224,
-      "total_mv_yi": 968741217.66,
-      "float_mv_yi": 816189235.07
+      "total_mv_yi": 968741485.25,
+      "float_mv_yi": 816188660.79
     }
   ]
 }
