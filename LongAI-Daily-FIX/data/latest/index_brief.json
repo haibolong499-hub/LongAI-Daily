@@ -1,6 +1,6 @@
 {
   "name": "LongAI Index Brief",
-  "generated_at_beijing": "2026-09-30 22:12:55",
+  "generated_at_beijing": "2026-10-01 18:23:53",
   "trade_date": "20260930",
   "indices": [
     {
@@ -14,7 +14,7 @@
       "pe_ttm": 10.734,
       "pb": 1.2264,
       "turnover_rate": 0.2234,
-      "total_mv_yi": 2824400895.04,
+      "total_mv_yi": 2824401144.14,
       "float_mv_yi": 2261905801.01
     },
     {
@@ -28,7 +28,7 @@
       "pe_ttm": 15.6128,
       "pb": 1.4305,
       "turnover_rate": 0.8434,
-      "total_mv_yi": 7583490040.85,
+      "total_mv_yi": 7583490289.95,
       "float_mv_yi": 5942630916.16
     },
     {
@@ -42,8 +42,8 @@
       "pe_ttm": 13.2274,
       "pb": 1.3954,
       "turnover_rate": 0.4853,
-      "total_mv_yi": 6611232159.07,
-      "float_mv_yi": 5030543225.04
+      "total_mv_yi": 6611232552.44,
+      "float_mv_yi": 5030543369.31
     },
     {
       "trade_date": 20260930,
@@ -70,8 +70,8 @@
       "pe_ttm": 28.6974,
       "pb": 2.6109,
       "turnover_rate": 1.2767,
-      "total_mv_yi": 2797330182.51,
-      "float_mv_yi": 2390717646.76
+      "total_mv_yi": 2797330326.78,
+      "float_mv_yi": 2390717791.03
     },
     {
       "trade_date": 20260930,
