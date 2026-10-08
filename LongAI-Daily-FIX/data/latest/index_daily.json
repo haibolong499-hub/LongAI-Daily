@@ -52,8 +52,8 @@
     "pe_ttm": 31.2065,
     "pb": 2.2641,
     "turnover_rate": 1.31,
-    "total_mv_yi": 1735386138.66,
-    "float_mv_yi": 1472730918.64
+    "total_mv_yi": 1735386139.31,
+    "float_mv_yi": 1472730919.29
   },
   {
     "trade_date": "20261008",
@@ -66,8 +66,8 @@
     "pe_ttm": 41.1078,
     "pb": 2.2623,
     "turnover_rate": 1.9016,
-    "total_mv_yi": 1392213416.3,
-    "float_mv_yi": 1238021477.91
+    "total_mv_yi": 1392213429.35,
+    "float_mv_yi": 1238021540.14
   },
   {
     "trade_date": "20261008",
@@ -94,8 +94,8 @@
     "pe_ttm": 28.1774,
     "pb": 2.5636,
     "turnover_rate": 1.4428,
-    "total_mv_yi": 2746642817.02,
-    "float_mv_yi": 2348434045.1
+    "total_mv_yi": 2746642829.82,
+    "float_mv_yi": 2348434051.28
   },
   {
     "trade_date": "20261008",
@@ -108,7 +108,7 @@
     "pe_ttm": 34.7469,
     "pb": 4.9004,
     "turnover_rate": 2.1546,
-    "total_mv_yi": 899535307.87,
-    "float_mv_yi": 756518467.47
+    "total_mv_yi": 899535308.52,
+    "float_mv_yi": 756518468.12
   }
 ]
