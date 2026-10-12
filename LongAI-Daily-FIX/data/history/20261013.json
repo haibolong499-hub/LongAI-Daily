@@ -1,0 +1,114 @@
+{
+  "generated_at_beijing": "2026-10-13 00:58:10",
+  "trade_date": "20261013",
+  "data_source": {
+    "primary": "Tushare Pro",
+    "notes": "涨跌家数、成交额为Tushare股票日线口径；部分数据可能在盘后延迟更新。"
+  },
+  "market": {
+    "trade_date": "20261013"
+  },
+  "indices": [
+    {
+      "name": "上证指数",
+      "ts_code": "000001.SH",
+      "trade_date": "20261012",
+      "close": 3797.2424,
+      "pct_chg": -0.43,
+      "amount_yi": 7149.1
+    },
+    {
+      "name": "深证成指",
+      "ts_code": "399001.SZ",
+      "trade_date": "20261012",
+      "close": 12384.8692,
+      "pct_chg": -2.03,
+      "amount_yi": 4067.92
+    },
+    {
+      "name": "创业板指",
+      "ts_code": "399006.SZ",
+      "trade_date": "20261012",
+      "close": 2963.8238,
+      "pct_chg": -2.61,
+      "amount_yi": 1535.84
+    },
+    {
+      "name": "沪深300",
+      "ts_code": "000300.SH",
+      "trade_date": "20261012",
+      "close": 4287.9798,
+      "pct_chg": -0.68,
+      "amount_yi": 4055.74
+    },
+    {
+      "name": "科创50",
+      "ts_code": "000688.SH",
+      "trade_date": "20261012",
+      "close": 1426.7216,
+      "pct_chg": -2.1,
+      "amount_yi": 646.17
+    },
+    {
+      "name": "中证1000",
+      "ts_code": "000852.SH",
+      "trade_date": "20261012",
+      "close": 7021.4723,
+      "pct_chg": -1.88,
+      "amount_yi": 3101.5
+    }
+  ],
+  "turnover_10d": [
+    {
+      "trade_date": "20260922",
+      "total_amount_yi": 21536.52
+    },
+    {
+      "trade_date": "20260923",
+      "total_amount_yi": 17831.28
+    },
+    {
+      "trade_date": "20260924",
+      "total_amount_yi": 16691.12
+    },
+    {
+      "trade_date": "20260928",
+      "total_amount_yi": 17167.12
+    },
+    {
+      "trade_date": "20260929",
+      "total_amount_yi": 14215.96
+    },
+    {
+      "trade_date": "20260930",
+      "total_amount_yi": 14500.77
+    },
+    {
+      "trade_date": "20261008",
+      "total_amount_yi": 16942.91
+    },
+    {
+      "trade_date": "20261009",
+      "total_amount_yi": 19166.92
+    },
+    {
+      "trade_date": "20261012",
+      "total_amount_yi": 15507.53
+    },
+    {
+      "trade_date": "20261013",
+      "total_amount_yi": null
+    }
+  ],
+  "top_gainers": [],
+  "top_losers": [],
+  "top_list": [],
+  "margin": [],
+  "quality_check": {
+    "has_market": false,
+    "has_indices": true,
+    "has_turnover_10d": true,
+    "has_top_list": false,
+    "has_margin": false
+  }
+}
