@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-13 23:15:15",
-  "trade_date": "20261013",
-  "longai_score": 67,
-  "sentiment": "偏强",
-  "stars": "★★★☆☆",
-  "top_sector": "AI硬件",
-  "top_company": "太辰光",
+  "generated_at": "2026-10-14 16:58:05",
+  "trade_date": "20261014",
+  "longai_score": 15,
+  "sentiment": "弱",
+  "stars": "★☆☆☆☆",
+  "top_sector": "AI应用",
+  "top_company": "深南电路",
   "company_rows": 41,
   "index_rows": 8,
   "score_parts": {
-    "公司上涨比例": 16.82926829268293,
-    "公司平均涨跌": 15.88950243902439,
-    "指数环境": 9.44585,
-    "板块强度": 15,
+    "公司上涨比例": 0,
+    "公司平均涨跌": 0,
+    "指数环境": 2.5792,
+    "板块强度": 2.7831,
     "成交活跃度": 10
   }
 }

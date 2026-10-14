@@ -1,0 +1,28 @@
+{
+  "name": "LongAI Summary",
+  "generated_at_beijing": "2026-10-14 16:58:06",
+  "generated_at_dubai": "2026-10-14 12:58:06",
+  "trade_date": "20261014",
+  "longai_score": 15,
+  "sentiment": "弱",
+  "stars": "★☆☆☆☆",
+  "top_sector": "AI应用",
+  "top_company": "深南电路",
+  "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
+  "market": {
+    "trade_date": "20261014",
+    "total_amount_yi": 14264.0,
+    "stock_count": 5563,
+    "up_count": 979,
+    "down_count": 4496,
+    "flat_count": 88
+  },
+  "links": {
+    "api": "LongAI-Daily-FIX/data/latest/api.json",
+    "company_top": "LongAI-Daily-FIX/data/latest/company_top.json",
+    "index_brief": "LongAI-Daily-FIX/data/latest/index_brief.json",
+    "sector_brief": "LongAI-Daily-FIX/data/latest/sector_brief.json",
+    "history_index": "LongAI-Daily-FIX/data/latest/history_index.json",
+    "svg_report": "LongAI-Daily-FIX/data/latest/longai_daily.svg"
+  }
+}
