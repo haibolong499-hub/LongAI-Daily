@@ -1,0 +1,28 @@
+{
+  "name": "LongAI Summary",
+  "generated_at_beijing": "2026-10-16 16:26:48",
+  "generated_at_dubai": "2026-10-16 12:26:48",
+  "trade_date": "20261016",
+  "longai_score": 59,
+  "sentiment": "中性",
+  "stars": "★★★☆☆",
+  "top_sector": "机器人",
+  "top_company": "中科曙光",
+  "conclusion": "AI核心资产整体中性，结构性机会主要集中在 机器人。",
+  "market": {
+    "trade_date": "20261016",
+    "total_amount_yi": 15690.66,
+    "stock_count": 5567,
+    "up_count": 3301,
+    "down_count": 2128,
+    "flat_count": 138
+  },
+  "links": {
+    "api": "LongAI-Daily-FIX/data/latest/api.json",
+    "company_top": "LongAI-Daily-FIX/data/latest/company_top.json",
+    "index_brief": "LongAI-Daily-FIX/data/latest/index_brief.json",
+    "sector_brief": "LongAI-Daily-FIX/data/latest/sector_brief.json",
+    "history_index": "LongAI-Daily-FIX/data/latest/history_index.json",
+    "svg_report": "LongAI-Daily-FIX/data/latest/longai_daily.svg"
+  }
+}
