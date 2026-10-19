@@ -53,7 +53,7 @@
     "pb": 2.1433,
     "turnover_rate": 1.1041,
     "total_mv_yi": 1638994540.36,
-    "float_mv_yi": 1396506426.82
+    "float_mv_yi": 1396517877.21
   },
   {
     "trade_date": "20261019",
@@ -95,7 +95,7 @@
     "pb": 2.4188,
     "turnover_rate": 1.2453,
     "total_mv_yi": 2591808226.07,
-    "float_mv_yi": 2217749871.27
+    "float_mv_yi": 2217761321.66
   },
   {
     "trade_date": "20261019",
@@ -109,6 +109,6 @@
     "pb": 4.47,
     "turnover_rate": 1.8131,
     "total_mv_yi": 819745642.79,
-    "float_mv_yi": 686691834.23
+    "float_mv_yi": 686703284.62
   }
 ]
