@@ -1,0 +1,28 @@
+{
+  "name": "LongAI Summary",
+  "generated_at_beijing": "2026-10-19 17:14:02",
+  "generated_at_dubai": "2026-10-19 13:14:02",
+  "trade_date": "20261019",
+  "longai_score": 62,
+  "sentiment": "中性",
+  "stars": "★★★☆☆",
+  "top_sector": "电力",
+  "top_company": "思源电气",
+  "conclusion": "AI核心资产整体中性，结构性机会主要集中在 电力。",
+  "market": {
+    "trade_date": "20261019",
+    "total_amount_yi": 14487.92,
+    "stock_count": 5564,
+    "up_count": 2275,
+    "down_count": 3129,
+    "flat_count": 160
+  },
+  "links": {
+    "api": "LongAI-Daily-FIX/data/latest/api.json",
+    "company_top": "LongAI-Daily-FIX/data/latest/company_top.json",
+    "index_brief": "LongAI-Daily-FIX/data/latest/index_brief.json",
+    "sector_brief": "LongAI-Daily-FIX/data/latest/sector_brief.json",
+    "history_index": "LongAI-Daily-FIX/data/latest/history_index.json",
+    "svg_report": "LongAI-Daily-FIX/data/latest/longai_daily.svg"
+  }
+}
