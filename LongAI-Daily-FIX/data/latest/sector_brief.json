@@ -1,70 +1,70 @@
 {
   "name": "LongAI Sector Brief",
-  "generated_at_beijing": "2026-10-21 16:49:14",
+  "generated_at_beijing": "2026-10-21 21:11:47",
   "trade_date": "20261021",
   "sectors": [
     {
       "name": "存储",
       "avg_pct_chg": 2.46505,
       "amount_yi": 186.1366594584,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 32.4115,
+      "median_pb": 5.7985
     },
     {
       "name": "AI硬件",
       "avg_pct_chg": 1.63083,
       "amount_yi": 642.4396945995,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 46.82625,
+      "median_pb": 16.25265
     },
     {
       "name": "AI服务器",
       "avg_pct_chg": 1.460525,
       "amount_yi": 110.2624628392,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 23.72565,
+      "median_pb": 4.49015
     },
     {
       "name": "液冷",
       "avg_pct_chg": 1.1255,
       "amount_yi": 18.5817303831,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 236.583,
+      "median_pb": 10.4407
     },
     {
       "name": "AI应用",
       "avg_pct_chg": 0.705625,
       "amount_yi": 29.3119814949,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 77.6826,
+      "median_pb": 4.444
     },
     {
       "name": "AI芯片",
       "avg_pct_chg": 0.0464,
       "amount_yi": 97.3648201933,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 151.973,
+      "median_pb": 17.0037
     },
     {
       "name": "电力",
       "avg_pct_chg": -0.194925,
       "amount_yi": 34.6707805212,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 24.08115,
+      "median_pb": 2.406
     },
     {
       "name": "机器人",
       "avg_pct_chg": -0.5401,
       "amount_yi": 51.2021529991,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 32.0247,
+      "median_pb": 4.2634
     },
     {
       "name": "半导体设备",
       "avg_pct_chg": -1.640075,
       "amount_yi": 112.8476767664,
-      "median_pe_ttm": null,
-      "median_pb": null
+      "median_pe_ttm": 71.7132,
+      "median_pb": 11.1586
     }
   ]
 }
