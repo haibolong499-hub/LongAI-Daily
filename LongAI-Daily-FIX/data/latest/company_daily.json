@@ -19,7 +19,7 @@
     "amount": 797687.335,
     "amount_yi": 7.97687335,
     "turnover_rate": 2.3999,
-    "volume_ratio": null,
+    "volume_ratio": 1.79,
     "pe": null,
     "pe_ttm": null,
     "pb": 5.0946,
@@ -27,7 +27,7 @@
     "total_mv_yi": 342.38313948,
     "circ_mv": 3423831.3948,
     "circ_mv_yi": 342.38313948,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688111.SH",
@@ -49,7 +49,7 @@
     "amount": 2037105.871,
     "amount_yi": 20.37105871,
     "turnover_rate": 1.8123,
-    "volume_ratio": null,
+    "volume_ratio": 1.87,
     "pe": 62.9038,
     "pe_ttm": 32.0281,
     "pb": 7.6622,
@@ -57,7 +57,7 @@
     "total_mv_yi": 1155.20776064,
     "circ_mv": 11552077.6064,
     "circ_mv_yi": 1155.20776064,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "002230.SZ",
@@ -79,7 +79,7 @@
     "amount": 1454101.8025,
     "amount_yi": 14.541018025,
     "turnover_rate": 1.772,
-    "volume_ratio": null,
+    "volume_ratio": 2.2,
     "pe": 109.3167,
     "pe_ttm": 98.8837,
     "pb": 4.0211,
@@ -87,7 +87,7 @@
     "total_mv_yi": 917.59449926,
     "circ_mv": 8365673.7108,
     "circ_mv_yi": 836.56737108,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "601360.SH",
@@ -109,7 +109,7 @@
     "amount": 1012745.247,
     "amount_yi": 10.12745247,
     "turnover_rate": 1.7378,
-    "volume_ratio": null,
+    "volume_ratio": 1.6,
     "pe": 228.0732,
     "pe_ttm": 78.8791,
     "pb": 2.1234,
@@ -117,7 +117,7 @@
     "total_mv_yi": 599.86211203,
     "circ_mv": 5998621.1203,
     "circ_mv_yi": 599.86211203,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "000977.SZ",
@@ -139,7 +139,7 @@
     "amount": 3131168.10674,
     "amount_yi": 31.3116810674,
     "turnover_rate": 3.7548,
-    "volume_ratio": null,
+    "volume_ratio": 1.47,
     "pe": 35.6033,
     "pe_ttm": 18.8145,
     "pb": 3.5014,
@@ -147,7 +147,7 @@
     "total_mv_yi": 859.0588695,
     "circ_mv": 8581456.845,
     "circ_mv_yi": 858.1456845,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "000938.SZ",
@@ -169,7 +169,7 @@
     "amount": 3286320.68421,
     "amount_yi": 32.8632068421,
     "turnover_rate": 4.5538,
-    "volume_ratio": null,
+    "volume_ratio": 1.35,
     "pe": 44.0842,
     "pe_ttm": 26.4282,
     "pb": 4.158,
@@ -177,7 +177,7 @@
     "total_mv_yi": 743.04875802,
     "circ_mv": 7430468.8746,
     "circ_mv_yi": 743.04688746,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "603019.SH",
@@ -199,7 +199,7 @@
     "amount": 2980588.301,
     "amount_yi": 29.80588301,
     "turnover_rate": 2.6901,
-    "volume_ratio": null,
+    "volume_ratio": 1.18,
     "pe": 52.5131,
     "pe_ttm": 47.2439,
     "pb": 4.9575,
@@ -207,7 +207,7 @@
     "total_mv_yi": 1142.83967327,
     "circ_mv": 11427917.1373,
     "circ_mv_yi": 1142.79171373,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "601138.SH",
@@ -229,7 +229,7 @@
     "amount": 4999372.41,
     "amount_yi": 49.9937241,
     "turnover_rate": 0.5333,
-    "volume_ratio": null,
+    "volume_ratio": 1.26,
     "pe": 27.4725,
     "pe_ttm": 20.6636,
     "pb": 5.5156,
@@ -237,7 +237,7 @@
     "total_mv_yi": 9693.83908855,
     "circ_mv": 96938390.8855,
     "circ_mv_yi": 9693.83908855,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300308.SZ",
@@ -259,7 +259,7 @@
     "amount": 27918480.0755,
     "amount_yi": 279.184800755,
     "turnover_rate": 4.3139,
-    "volume_ratio": null,
+    "volume_ratio": 1.82,
     "pe": 66.8339,
     "pe_ttm": 35.2815,
     "pb": 18.1043,
@@ -267,7 +267,7 @@
     "total_mv_yi": 7216.22758248,
     "circ_mv": 67998070.431,
     "circ_mv_yi": 6799.8070431,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300476.SZ",
@@ -289,7 +289,7 @@
     "amount": 5681649.78624,
     "amount_yi": 56.8164978624,
     "turnover_rate": 3.7643,
-    "volume_ratio": null,
+    "volume_ratio": 1.36,
     "pe": 41.8186,
     "pe_ttm": 35.8802,
     "pb": 4.7567,
@@ -297,7 +297,7 @@
     "total_mv_yi": 1803.21355104,
     "circ_mv": 15874596.0252,
     "circ_mv_yi": 1587.45960252,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300394.SZ",
@@ -319,7 +319,7 @@
     "amount": 8470578.31667,
     "amount_yi": 84.7057831667,
     "turnover_rate": 4.0567,
-    "volume_ratio": null,
+    "volume_ratio": 1.44,
     "pe": 108.5869,
     "pe_ttm": 94.3236,
     "pb": 35.0558,
@@ -327,7 +327,7 @@
     "total_mv_yi": 2190.4856825,
     "circ_mv": 21855919.428,
     "circ_mv_yi": 2185.5919428,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300502.SZ",
@@ -349,7 +349,7 @@
     "amount": 21356884.8129,
     "amount_yi": 213.568848129,
     "turnover_rate": 6.8459,
-    "volume_ratio": null,
+    "volume_ratio": 1.95,
     "pe": 38.1902,
     "pe_ttm": 27.7485,
     "pb": 14.9825,
@@ -357,7 +357,7 @@
     "total_mv_yi": 3640.264092,
     "circ_mv": 32748288.57,
     "circ_mv_yi": 3274.828857,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688183.SH",
@@ -379,7 +379,7 @@
     "amount": 1153747.092,
     "amount_yi": 11.53747092,
     "turnover_rate": 1.643,
-    "volume_ratio": null,
+    "volume_ratio": 1.23,
     "pe": 50.9681,
     "pe_ttm": 36.5665,
     "pb": 11.5297,
@@ -387,7 +387,7 @@
     "total_mv_yi": 750.8358008,
     "circ_mv": 7310495.9936,
     "circ_mv_yi": 731.04959936,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688498.SH",
@@ -409,7 +409,7 @@
     "amount": 4972072.032,
     "amount_yi": 49.72072032,
     "turnover_rate": 4.5475,
-    "volume_ratio": null,
+    "volume_ratio": 1.3,
     "pe": 603.2842,
     "pe_ttm": 153.2212,
     "pb": 36.6622,
@@ -417,7 +417,7 @@
     "total_mv_yi": 1151.81452545,
     "circ_mv": 11369362.6315,
     "circ_mv_yi": 1136.93626315,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "600183.SH",
@@ -439,7 +439,7 @@
     "amount": 7610521.386,
     "amount_yi": 76.10521386,
     "turnover_rate": 2.9626,
-    "volume_ratio": null,
+    "volume_ratio": 1.32,
     "pe": 80.7323,
     "pe_ttm": 51.8165,
     "pb": 14.5477,
@@ -447,7 +447,7 @@
     "total_mv_yi": 2691.57899997,
     "circ_mv": 26724589.5609,
     "circ_mv_yi": 2672.45895609,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "002463.SZ",
@@ -469,7 +469,7 @@
     "amount": 5988007.90111,
     "amount_yi": 59.8800790111,
     "turnover_rate": 3.0251,
-    "volume_ratio": null,
+    "volume_ratio": 1.17,
     "pe": 53.9,
     "pe_ttm": 40.6927,
     "pb": 11.4526,
@@ -477,7 +477,7 @@
     "total_mv_yi": 2060.2235631,
     "circ_mv": 20586050.3002,
     "circ_mv_yi": 2058.60503002,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "002916.SZ",
@@ -499,7 +499,7 @@
     "amount": 3391299.91947,
     "amount_yi": 33.9129991947,
     "turnover_rate": 1.865,
-    "volume_ratio": null,
+    "volume_ratio": 1.41,
     "pe": 58.8409,
     "pe_ttm": 37.9492,
     "pb": 9.6143,
@@ -507,7 +507,7 @@
     "total_mv_yi": 1927.4729932,
     "circ_mv": 18813647.9796,
     "circ_mv_yi": 1881.36479796,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300570.SZ",
@@ -529,7 +529,7 @@
     "amount": 2659050.30798,
     "amount_yi": 26.5905030798,
     "turnover_rate": 8.907,
-    "volume_ratio": null,
+    "volume_ratio": 1.15,
     "pe": 122.3064,
     "pe_ttm": 121.1082,
     "pb": 21.9192,
@@ -537,7 +537,7 @@
     "total_mv_yi": 365.65159631,
     "circ_mv": 3094111.8872,
     "circ_mv_yi": 309.41118872,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300474.SZ",
@@ -559,7 +559,7 @@
     "amount": 519833.95809,
     "amount_yi": 5.1983395809,
     "turnover_rate": 2.5446,
-    "volume_ratio": null,
+    "volume_ratio": 1.98,
     "pe": null,
     "pe_ttm": null,
     "pb": 4.0111,
@@ -567,7 +567,7 @@
     "total_mv_yi": 271.81424592,
     "circ_mv": 2114100.9197,
     "circ_mv_yi": 211.41009197,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688256.SH",
@@ -589,7 +589,7 @@
     "amount": 12534180.802,
     "amount_yi": 125.34180802,
     "turnover_rate": 2.2682,
-    "volume_ratio": null,
+    "volume_ratio": 1.75,
     "pe": 284.6783,
     "pe_ttm": 175.9326,
     "pb": 43.246,
@@ -597,7 +597,7 @@
     "total_mv_yi": 5862.176988,
     "circ_mv": 58621769.88,
     "circ_mv_yi": 5862.176988,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688041.SH",
@@ -619,7 +619,7 @@
     "amount": 5393738.612,
     "amount_yi": 53.93738612,
     "turnover_rate": 1.1969,
-    "volume_ratio": null,
+    "volume_ratio": 1.48,
     "pe": 183.6717,
     "pe_ttm": 136.2772,
     "pb": 17.6899,
@@ -627,7 +627,7 @@
     "total_mv_yi": 4674.2439191,
     "circ_mv": 46742439.191,
     "circ_mv_yi": 4674.2439191,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688012.SH",
@@ -649,7 +649,7 @@
     "amount": 5749912.916,
     "amount_yi": 57.49912916,
     "turnover_rate": 2.3426,
-    "volume_ratio": null,
+    "volume_ratio": 1.43,
     "pe": 120.985,
     "pe_ttm": 60.3809,
     "pb": 8.5045,
@@ -657,7 +657,7 @@
     "total_mv_yi": 2554.5654141,
     "circ_mv": 25128393.99,
     "circ_mv_yi": 2512.839399,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688072.SH",
@@ -679,7 +679,7 @@
     "amount": 3378976.045,
     "amount_yi": 33.78976045,
     "turnover_rate": 2.3834,
-    "volume_ratio": null,
+    "volume_ratio": 0.97,
     "pe": 161.992,
     "pe_ttm": 69.0147,
     "pb": 11.8058,
@@ -687,7 +687,7 @@
     "total_mv_yi": 1501.1864154,
     "circ_mv": 14601543.474,
     "circ_mv_yi": 1460.1543474,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "002371.SZ",
@@ -709,7 +709,7 @@
     "amount": 5172680.43604,
     "amount_yi": 51.7268043604,
     "turnover_rate": 1.3416,
-    "volume_ratio": null,
+    "volume_ratio": 1.35,
     "pe": 70.8563,
     "pe_ttm": 68.8363,
     "pb": 9.6502,
@@ -717,7 +717,7 @@
     "total_mv_yi": 3912.67887425,
     "circ_mv": 39094350.3072,
     "circ_mv_yi": 3909.43503072,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688120.SH",
@@ -739,7 +739,7 @@
     "amount": 2178078.724,
     "amount_yi": 21.78078724,
     "turnover_rate": 2.17,
-    "volume_ratio": null,
+    "volume_ratio": 1.09,
     "pe": 96.4327,
     "pe_ttm": 91.5501,
     "pb": 13.2105,
@@ -747,7 +747,7 @@
     "total_mv_yi": 1045.06456743,
     "circ_mv": 10122651.7158,
     "circ_mv_yi": 1012.26517158,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "603986.SH",
@@ -769,7 +769,7 @@
     "amount": 12905920.595,
     "amount_yi": 129.05920595,
     "turnover_rate": 6.8564,
-    "volume_ratio": null,
+    "volume_ratio": 1.51,
     "pe": 124.7311,
     "pe_ttm": 25.924,
     "pb": 5.5134,
@@ -777,7 +777,7 @@
     "total_mv_yi": 2055.59656684,
     "circ_mv": 19584975.1484,
     "circ_mv_yi": 1958.49751484,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300223.SZ",
@@ -799,7 +799,7 @@
     "amount": 2782070.80799,
     "amount_yi": 27.8207080799,
     "turnover_rate": 6.5478,
-    "volume_ratio": null,
+    "volume_ratio": 1.37,
     "pe": 144.2641,
     "pe_ttm": 39.598,
     "pb": 3.9905,
@@ -807,7 +807,7 @@
     "total_mv_yi": 542.75905702,
     "circ_mv": 4457086.3527,
     "circ_mv_yi": 445.70863527,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "688008.SH",
@@ -829,7 +829,7 @@
     "amount": 7760700.183,
     "amount_yi": 77.60700183,
     "turnover_rate": 3.8877,
-    "volume_ratio": null,
+    "volume_ratio": 1.49,
     "pe": 98.2733,
     "pe_ttm": 71.4723,
     "pb": 10.2108,
@@ -837,7 +837,7 @@
     "total_mv_yi": 2196.9684,
     "circ_mv": 20605761.0,
     "circ_mv_yi": 2060.5761,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "301308.SZ",
@@ -859,7 +859,7 @@
     "amount": 4168880.84125,
     "amount_yi": 41.6888084125,
     "turnover_rate": 6.1757,
-    "volume_ratio": null,
+    "volume_ratio": 1.44,
     "pe": 79.02,
     "pe_ttm": 9.3838,
     "pb": 6.0524,
@@ -867,7 +867,7 @@
     "total_mv_yi": 1124.69021568,
     "circ_mv": 6896352.2892,
     "circ_mv_yi": 689.63522892,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "002747.SZ",
@@ -889,7 +889,7 @@
     "amount": 2225198.51958,
     "amount_yi": 22.2519851958,
     "turnover_rate": 10.5145,
-    "volume_ratio": null,
+    "volume_ratio": 1.78,
     "pe": 628.5144,
     "pe_ttm": 141.6007,
     "pb": 8.624,
@@ -897,7 +897,7 @@
     "total_mv_yi": 282.65676798,
     "circ_mv": 2288721.628,
     "circ_mv_yi": 228.8721628,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300124.SZ",
@@ -919,7 +919,7 @@
     "amount": 3101865.56835,
     "amount_yi": 31.0186556835,
     "turnover_rate": 2.4877,
-    "volume_ratio": null,
+    "volume_ratio": 2.24,
     "pe": 28.7085,
     "pe_ttm": 29.6409,
     "pb": 3.9414,
@@ -927,7 +927,7 @@
     "total_mv_yi": 1449.78055112,
     "circ_mv": 12907027.2878,
     "circ_mv_yi": 1290.70272878,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "002050.SZ",
@@ -949,7 +949,7 @@
     "amount": 3127303.1389,
     "amount_yi": 31.273031389,
     "turnover_rate": 2.5094,
-    "volume_ratio": null,
+    "volume_ratio": 1.81,
     "pe": 36.333,
     "pe_ttm": 36.9318,
     "pb": 4.5418,
@@ -957,7 +957,7 @@
     "total_mv_yi": 1476.17127612,
     "circ_mv": 12948185.86,
     "circ_mv_yi": 1294.818586,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300024.SZ",
@@ -979,7 +979,7 @@
     "amount": 734469.33621,
     "amount_yi": 7.3446933621,
     "turnover_rate": 3.5332,
-    "volume_ratio": null,
+    "volume_ratio": 2.92,
     "pe": null,
     "pe_ttm": null,
     "pb": 5.2957,
@@ -987,7 +987,7 @@
     "total_mv_yi": 214.64648829,
     "circ_mv": 2145854.5137,
     "circ_mv_yi": 214.58545137,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "601689.SH",
@@ -1009,7 +1009,7 @@
     "amount": 1655054.018,
     "amount_yi": 16.55054018,
     "turnover_rate": 2.2174,
-    "volume_ratio": null,
+    "volume_ratio": 1.46,
     "pe": 27.996,
     "pe_ttm": 31.0381,
     "pb": 3.2126,
@@ -1017,7 +1017,7 @@
     "total_mv_yi": 778.02899812,
     "circ_mv": 7780289.9812,
     "circ_mv_yi": 778.02899812,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "300499.SZ",
@@ -1039,7 +1039,7 @@
     "amount": 640190.54136,
     "amount_yi": 6.4019054136,
     "turnover_rate": 9.2759,
-    "volume_ratio": null,
+    "volume_ratio": 2.0,
     "pe": 285.7496,
     "pe_ttm": 148.318,
     "pb": 5.7214,
@@ -1047,7 +1047,7 @@
     "total_mv_yi": 81.10455302,
     "circ_mv": 721992.4554,
     "circ_mv_yi": 72.19924554,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "301018.SZ",
@@ -1069,7 +1069,7 @@
     "amount": 935145.60054,
     "amount_yi": 9.3514560054,
     "turnover_rate": 4.8088,
-    "volume_ratio": null,
+    "volume_ratio": 1.84,
     "pe": 126.1951,
     "pe_ttm": 227.1955,
     "pb": 10.0264,
@@ -1077,7 +1077,7 @@
     "total_mv_yi": 273.56220217,
     "circ_mv": 2067152.5761,
     "circ_mv_yi": 206.71525761,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "002837.SZ",
@@ -1099,7 +1099,7 @@
     "amount": 1636170.05901,
     "amount_yi": 16.3617005901,
     "turnover_rate": 3.4041,
-    "volume_ratio": null,
+    "volume_ratio": 1.77,
     "pe": 108.7428,
     "pe_ttm": 115.5797,
     "pb": 15.833,
@@ -1107,7 +1107,7 @@
     "total_mv_yi": 567.54452855,
     "circ_mv": 5036854.6132,
     "circ_mv_yi": 503.68546132,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "601179.SH",
@@ -1129,7 +1129,7 @@
     "amount": 933870.088,
     "amount_yi": 9.33870088,
     "turnover_rate": 1.6288,
-    "volume_ratio": null,
+    "volume_ratio": 1.58,
     "pe": 46.185,
     "pe_ttm": 39.4863,
     "pb": 2.4863,
@@ -1137,7 +1137,7 @@
     "total_mv_yi": 586.40094656,
     "circ_mv": 5864009.4656,
     "circ_mv_yi": 586.40094656,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "600089.SH",
@@ -1159,7 +1159,7 @@
     "amount": 1365364.348,
     "amount_yi": 13.65364348,
     "turnover_rate": 1.5648,
-    "volume_ratio": null,
+    "volume_ratio": 1.91,
     "pe": 14.8813,
     "pe_ttm": 16.647,
     "pb": 1.2505,
@@ -1167,7 +1167,7 @@
     "total_mv_yi": 886.07389555,
     "circ_mv": 8860738.9555,
     "circ_mv_yi": 886.07389555,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "002028.SZ",
@@ -1189,7 +1189,7 @@
     "amount": 1452837.29621,
     "amount_yi": 14.5283729621,
     "turnover_rate": 2.2256,
-    "volume_ratio": null,
+    "volume_ratio": 0.94,
     "pe": 27.1826,
     "pe_ttm": 25.7829,
     "pb": 5.2043,
@@ -1197,7 +1197,7 @@
     "total_mv_yi": 856.29168516,
     "circ_mv": 6683101.8117,
     "circ_mv_yi": 668.31018117,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   },
   {
     "ts_code": "600312.SH",
@@ -1219,7 +1219,7 @@
     "amount": 743454.346,
     "amount_yi": 7.43454346,
     "turnover_rate": 2.5569,
-    "volume_ratio": null,
+    "volume_ratio": 1.18,
     "pe": 26.0519,
     "pe_ttm": 21.3144,
     "pb": 2.4402,
@@ -1227,6 +1227,6 @@
     "total_mv_yi": 291.7380795,
     "circ_mv": 2917380.795,
     "circ_mv_yi": 291.7380795,
-    "generated_at": "2026-10-23 16:46:59"
+    "generated_at": "2026-10-23 20:50:33"
   }
 ]
