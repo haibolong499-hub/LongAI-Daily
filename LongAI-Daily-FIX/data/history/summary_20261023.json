@@ -1,0 +1,28 @@
+{
+  "name": "LongAI Summary",
+  "generated_at_beijing": "2026-10-23 16:47:13",
+  "generated_at_dubai": "2026-10-23 12:47:13",
+  "trade_date": "20261023",
+  "longai_score": 96,
+  "sentiment": "极强",
+  "stars": "★★★★★",
+  "top_sector": "机器人",
+  "top_company": "埃斯顿",
+  "conclusion": "AI核心资产偏强，当前最强板块为 机器人，领涨公司为 埃斯顿。",
+  "market": {
+    "trade_date": "20261023",
+    "total_amount_yi": 19728.55,
+    "stock_count": 5572,
+    "up_count": 4526,
+    "down_count": 909,
+    "flat_count": 137
+  },
+  "links": {
+    "api": "LongAI-Daily-FIX/data/latest/api.json",
+    "company_top": "LongAI-Daily-FIX/data/latest/company_top.json",
+    "index_brief": "LongAI-Daily-FIX/data/latest/index_brief.json",
+    "sector_brief": "LongAI-Daily-FIX/data/latest/sector_brief.json",
+    "history_index": "LongAI-Daily-FIX/data/latest/history_index.json",
+    "svg_report": "LongAI-Daily-FIX/data/latest/longai_daily.svg"
+  }
+}
