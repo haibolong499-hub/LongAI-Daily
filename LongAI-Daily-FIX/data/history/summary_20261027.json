@@ -1,0 +1,28 @@
+{
+  "name": "LongAI Summary",
+  "generated_at_beijing": "2026-10-27 21:33:01",
+  "generated_at_dubai": "2026-10-27 17:33:01",
+  "trade_date": "20261027",
+  "longai_score": 14,
+  "sentiment": "弱",
+  "stars": "★☆☆☆☆",
+  "top_sector": "电力",
+  "top_company": "特变电工",
+  "conclusion": "AI核心资产偏弱，短期建议重点观察龙头修复和成交回暖。",
+  "market": {
+    "trade_date": "20261027",
+    "total_amount_yi": 14728.97,
+    "stock_count": 5570,
+    "up_count": 606,
+    "down_count": 4922,
+    "flat_count": 42
+  },
+  "links": {
+    "api": "LongAI-Daily-FIX/data/latest/api.json",
+    "company_top": "LongAI-Daily-FIX/data/latest/company_top.json",
+    "index_brief": "LongAI-Daily-FIX/data/latest/index_brief.json",
+    "sector_brief": "LongAI-Daily-FIX/data/latest/sector_brief.json",
+    "history_index": "LongAI-Daily-FIX/data/latest/history_index.json",
+    "svg_report": "LongAI-Daily-FIX/data/latest/longai_daily.svg"
+  }
+}

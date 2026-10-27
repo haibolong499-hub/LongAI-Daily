@@ -1,70 +1,70 @@
 {
   "name": "LongAI Sector Brief",
-  "generated_at_beijing": "2026-10-26 22:32:55",
-  "trade_date": "20261026",
+  "generated_at_beijing": "2026-10-27 21:33:01",
+  "trade_date": "20261027",
   "sectors": [
     {
-      "name": "AI应用",
-      "avg_pct_chg": 1.429575,
-      "amount_yi": 47.6584969114,
-      "median_pe_ttm": 79.9836,
-      "median_pb": 4.6225
-    },
-    {
-      "name": "AI芯片",
-      "avg_pct_chg": 0.7214333333,
-      "amount_yi": 179.9282064633,
-      "median_pe_ttm": 140.09315,
-      "median_pb": 17.4172
+      "name": "电力",
+      "avg_pct_chg": -1.84445,
+      "amount_yi": 31.2907348886,
+      "median_pe_ttm": 22.73985,
+      "median_pb": 2.36255
     },
     {
       "name": "机器人",
-      "avg_pct_chg": 0.6029,
-      "amount_yi": 119.8707470426,
-      "median_pe_ttm": 33.4185,
-      "median_pb": 4.455
-    },
-    {
-      "name": "电力",
-      "avg_pct_chg": -0.70545,
-      "amount_yi": 39.8877560781,
-      "median_pe_ttm": 23.35355,
-      "median_pb": 2.4468
-    },
-    {
-      "name": "AI服务器",
-      "avg_pct_chg": -2.2412,
-      "amount_yi": 95.4138288501,
-      "median_pe_ttm": 22.833,
-      "median_pb": 4.5079
-    },
-    {
-      "name": "液冷",
-      "avg_pct_chg": -3.5606666667,
-      "amount_yi": 19.1663679522,
-      "median_pe_ttm": 145.9735,
-      "median_pb": 9.4324
-    },
-    {
-      "name": "半导体设备",
-      "avg_pct_chg": -4.370475,
-      "amount_yi": 135.5974591237,
-      "median_pe_ttm": 66.0425,
-      "median_pb": 10.27535
-    },
-    {
-      "name": "AI硬件",
-      "avg_pct_chg": -4.60998,
-      "amount_yi": 669.765222012,
-      "median_pe_ttm": 37.1786,
-      "median_pb": 13.80535
+      "avg_pct_chg": -2.73894,
+      "amount_yi": 84.2798520159,
+      "median_pe_ttm": 33.2678,
+      "median_pb": 4.4097
     },
     {
       "name": "存储",
-      "avg_pct_chg": -5.746075,
-      "amount_yi": 194.8699800148,
-      "median_pe_ttm": 30.89665,
-      "median_pb": 5.49165
+      "avg_pct_chg": -2.794425,
+      "amount_yi": 151.2240078556,
+      "median_pe_ttm": 29.71035,
+      "median_pb": 5.3604
+    },
+    {
+      "name": "AI应用",
+      "avg_pct_chg": -3.140625,
+      "amount_yi": 35.760543246,
+      "median_pe_ttm": 77.2224,
+      "median_pb": 4.4785
+    },
+    {
+      "name": "AI服务器",
+      "avg_pct_chg": -3.5151,
+      "amount_yi": 87.3293903067,
+      "median_pe_ttm": 22.2497,
+      "median_pb": 4.3174
+    },
+    {
+      "name": "AI硬件",
+      "avg_pct_chg": -3.9027,
+      "amount_yi": 523.134606516,
+      "median_pe_ttm": 36.28695,
+      "median_pb": 13.2267
+    },
+    {
+      "name": "AI芯片",
+      "avg_pct_chg": -4.7939333333,
+      "amount_yi": 112.1003542948,
+      "median_pe_ttm": 132.2267,
+      "median_pb": 16.4522
+    },
+    {
+      "name": "液冷",
+      "avg_pct_chg": -5.1208666667,
+      "amount_yi": 21.5697195252,
+      "median_pe_ttm": 139.7215,
+      "median_pb": 8.7342
+    },
+    {
+      "name": "半导体设备",
+      "avg_pct_chg": -6.6346,
+      "amount_yi": 146.4764530535,
+      "median_pe_ttm": 61.77885,
+      "median_pb": 9.60235
     }
   ]
 }
