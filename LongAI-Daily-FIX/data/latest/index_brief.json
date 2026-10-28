@@ -1,6 +1,6 @@
 {
   "name": "LongAI Index Brief",
-  "generated_at_beijing": "2026-10-28 17:57:28",
+  "generated_at_beijing": "2026-10-28 22:27:40",
   "trade_date": "20261028",
   "indices": [
     {
@@ -10,12 +10,12 @@
       "close": 2634.76,
       "pct_chg": 3.399,
       "amount_yi": 1832.25,
-      "pe": 37.1388,
-      "pe_ttm": 29.7908,
-      "pb": 4.2124,
+      "pe": 37.1383,
+      "pe_ttm": 29.7904,
+      "pb": 4.2123,
       "turnover_rate": 2.4895,
-      "total_mv_yi": 788066240.92,
-      "float_mv_yi": 659086229.61
+      "total_mv_yi": 788055485.79,
+      "float_mv_yi": 659075474.48
     },
     {
       "trade_date": 20261028,
@@ -38,11 +38,11 @@
       "close": 6578.0994,
       "pct_chg": 2.3483,
       "amount_yi": 3374.64,
-      "pe": 39.9474,
-      "pe_ttm": 37.4506,
-      "pb": 2.0656,
+      "pe": 39.9508,
+      "pe_ttm": 37.4538,
+      "pb": 2.0658,
       "turnover_rate": 2.1359,
-      "total_mv_yi": 1280093322.77,
+      "total_mv_yi": 1280203550.04,
       "float_mv_yi": 1146050278.26
     },
     {
@@ -52,12 +52,12 @@
       "close": 11473.1802,
       "pct_chg": 2.0225,
       "amount_yi": 4353.78,
-      "pe": 29.8481,
-      "pe_ttm": 25.3129,
+      "pe": 29.848,
+      "pe_ttm": 25.3128,
       "pb": 2.3253,
       "turnover_rate": 1.4353,
-      "total_mv_yi": 2519678004.08,
-      "float_mv_yi": 2153562841.8
+      "total_mv_yi": 2519667248.95,
+      "float_mv_yi": 2153552086.67
     },
     {
       "trade_date": 20261028,
