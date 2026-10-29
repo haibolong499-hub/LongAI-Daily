@@ -62,12 +62,12 @@
     "close": 6378.7802,
     "pct_chg": -3.03,
     "amount_yi": 3209.32,
-    "pe": 38.815,
-    "pe_ttm": 36.8582,
+    "pe": 38.8149,
+    "pe_ttm": 36.8581,
     "pb": 2.0013,
     "turnover_rate": 2.1571,
-    "total_mv_yi": 1243806614.37,
-    "float_mv_yi": 1113337688.07
+    "total_mv_yi": 1243804804.35,
+    "float_mv_yi": 1113335878.05
   },
   {
     "trade_date": "20261029",
@@ -91,11 +91,11 @@
     "pct_chg": -2.9197,
     "amount_yi": 4175.3,
     "pe": 29.1169,
-    "pe_ttm": 24.855,
+    "pe_ttm": 24.8549,
     "pb": 2.2614,
     "turnover_rate": 1.4995,
-    "total_mv_yi": 2457953617.69,
-    "float_mv_yi": 2098294769.63
+    "total_mv_yi": 2457951807.67,
+    "float_mv_yi": 2098292959.61
   },
   {
     "trade_date": "20261029",
